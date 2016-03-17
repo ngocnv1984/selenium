@@ -31,6 +31,9 @@ public class DataProviderSource extends TestBase {
 		case "opensavingaccount":
 			testData = ReadExcel.readExcelData("datasource.xls","savingaccount");
 			break;
+		case "openlimitcontrol":
+			testData = ReadExcel.readExcelData("datasource.xls","limitcontrol");
+			break;
 		default:
 			break;
 		}

@@ -36,7 +36,7 @@ public class OpenIndividualCustomerTest extends TestBase {
 	}
 	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
-	public void OpenIndividualCustomer(String sector, String vpbIndustry, String target, String documentType, String documentNum, String issuePlace,
+	public void OpenIndividualCustomer(String No, String sector, String vpbIndustry, String target, String documentType, String documentNum, String issuePlace,
 			String issueDate, String legalId, String nationality, String residence, String customerStatus, String companyBook, 
 			String birthDate, String dao, String daoPb, String gender, String contactType, String contactNumber, String emailAddress) 
 	{	
@@ -174,10 +174,8 @@ public class OpenIndividualCustomerTest extends TestBase {
 		OpenIndividualCustomerPage.btnPerform(driver).click();
 		OpenIndividualCustomerPage.btnAuthorise(driver).click();		
 		
-//		updateResult(cif, i, 19);
-//		i++;
-		
 		Log.info(cif);
+		updateResult("individualcus", cif, Integer.parseInt(No), 0);
 	}
 	
 	@AfterMethod

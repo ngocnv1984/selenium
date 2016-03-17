@@ -50,12 +50,12 @@ public class TestBase {
 	}
 	
 	@SuppressWarnings("resource")
-	protected void updateResult(String message, int rowIndex, int colIndex)
+	protected void updateResult(String sheetName, String message, int rowIndex, int colIndex)
 	{
 		try{
 	        FileInputStream input_document = new FileInputStream("datasource.xls");
 	        HSSFWorkbook my_xls_workbook = new HSSFWorkbook(input_document); 
-	        HSSFSheet my_worksheet = my_xls_workbook.getSheet("individualcus");
+	        HSSFSheet my_worksheet = my_xls_workbook.getSheet(sheetName);
 	        Cell cell = null; 
 	        cell = my_worksheet.getRow(rowIndex).getCell(colIndex);
 	        cell.setCellValue(message);

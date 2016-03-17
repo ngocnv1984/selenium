@@ -36,7 +36,7 @@ public class FundTransferTest extends TestBase {
 	}
 	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
-	public void fundTransfer(String transferType, String debitAccount, String debitCurrency, 
+	public void fundTransfer(String No, String transferType, String debitAccount, String debitCurrency, 
 			String debitAmount, String creditAccount, String creditCurrency, String orderBank) 
 	{	
 		SignInTest signin = new SignInTest();
@@ -47,6 +47,8 @@ public class FundTransferTest extends TestBase {
 		
 		FundTransferPage.btnNew(driver).click();
 		Log.info("Click btnNew");
+		
+		String ft = FundTransferPage.txtFt(driver).getAttribute("value");
 		
 		clearAndType(FundTransferPage.txtTransferType(driver), transferType);
 		Log.info("Input txtTransferType");
@@ -80,7 +82,8 @@ public class FundTransferTest extends TestBase {
 		else
 			Log.info("lblOverride not found");
 
-		Log.info("Print lblResult: " + FundTransferPage.lblResult(driver).getText());
+		Log.info(ft);
+		updateResult("fundtransfer", ft, Integer.parseInt(No), 0);
 	}
 	
 	@AfterMethod

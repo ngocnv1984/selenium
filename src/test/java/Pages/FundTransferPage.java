@@ -31,6 +31,12 @@ public class FundTransferPage extends TestBase
         return element;
 	}
 	
+	public static WebElement txtFt(WebDriver driver)
+    {
+		element = driver.findElement(map.getObject("TXT_FT"));
+        return element;
+	}
+	
 	public static WebElement txtTransferType(WebDriver driver)
     {
 		element = driver.findElement(map.getObject("TXT_TRANSFER_TYPE"));

@@ -31,6 +31,12 @@ public class OpenAccountPage extends TestBase
         return element;
 	}
 	
+	public static WebElement txtAccount(WebDriver driver)
+    {
+		element = driver.findElement(map.getObject("TXT_ACCOUNT"));
+        return element;
+	}
+	
 	public static WebElement txtCustomerNo(WebDriver driver)
     {
 		element = driver.findElement(map.getObject("TXT_CUSTOMER_NO"));

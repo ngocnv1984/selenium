@@ -14,6 +14,7 @@ import Base.DataProviderSource;
 import Base.Log;
 import Base.TestBase;
 import Pages.OpenAccountPage;
+import Pages.OpenIndividualCustomerPage;
 import Pages.SignInPage;
 
 public class OpenAccountTest extends TestBase {
@@ -36,7 +37,7 @@ public class OpenAccountTest extends TestBase {
 	}
 	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
-	public void openAccount(String customerNo, String depositType, String currency, 
+	public void openAccount(String No, String customerNo, String depositType, String currency, 
 			String bonusType, String custType, String dao) 
 	{	
 		SignInTest signin = new SignInTest();
@@ -48,6 +49,8 @@ public class OpenAccountTest extends TestBase {
 		
 		OpenAccountPage.btnNew(driver).click();
 		Log.info("Click btnNew");
+		
+		String account = OpenAccountPage.txtAccount(driver).getAttribute("value");
 		
 		clearAndType(OpenAccountPage.txtCustomerNo(driver), customerNo);
 		Log.info("Input txtCustomerNo");
@@ -80,9 +83,8 @@ public class OpenAccountTest extends TestBase {
 		else
 			Log.info("lblOverride not found");
 
-		Log.info(OpenAccountPage.lblResult(driver).getText());
-		Log.info("Print lblResult");
-		
+		Log.info(account);
+		updateResult("openaccount",account, Integer.parseInt(No), 0);
 	}
 	
 	@AfterMethod
