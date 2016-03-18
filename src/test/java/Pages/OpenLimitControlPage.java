@@ -12,15 +12,27 @@ public class OpenLimitControlPage extends TestBase
 	private static String inputValue = null;
 	static ObjectMap map =  new ObjectMap(pathFile("/src/test/resources/T24Repo/OpenLimitControlRepo.properties"));
     
-	public static String t24Version()
+	public static String globalLimitVersion()
 	{
-		inputValue = map.getValue("T24_VERSION");
+		inputValue = map.getValue("GLOBAL_LIMIT_VERSION");
 		return inputValue;
 	}
 	
-	public static String versionTitle()
+	public static String globalLimitTitle()
 	{
-		inputValue = map.getValue("VERSION_TITLE");
+		inputValue = map.getValue("GLOBAL_LIMIT_TITLE");
+		return inputValue;
+	}
+	
+	public static String productLimitVersion()
+	{
+		inputValue = map.getValue("PRODUCT_LIMIT_VERSION");
+		return inputValue;
+	}
+	
+	public static String productLimitTitle()
+	{
+		inputValue = map.getValue("PRODUCT_LIMIT_TITLE");
 		return inputValue;
 	}
 	
@@ -175,9 +187,21 @@ public class OpenLimitControlPage extends TestBase
         return element;
 	}
 	
+	public static WebElement btnExpand(WebDriver driver)
+    {
+        element = driver.findElement(map.getObject("BTN_EXPAND"));
+        return element;
+	}
+	
 	public static WebElement txtVpbProduct(WebDriver driver)
     {
         element = driver.findElement(map.getObject("TXT_VPB_PRODUCT"));
+        return element;
+	}
+	
+	public static WebElement txtVpbProduct(WebDriver driver, int no)
+    {
+        element = driver.findElement(map.getObject("TXT_VPB_PRODUCT",no));
         return element;
 	}
 	
@@ -187,9 +211,21 @@ public class OpenLimitControlPage extends TestBase
         return element;
 	}
 	
+	public static WebElement txtLimitProSecAmount(WebDriver driver, int no)
+    {
+        element = driver.findElement(map.getObject("TXT_LIMIT_PRO_SEC_AMOUNT",no));
+        return element;
+	}
+	
 	public static WebElement txtLimitProUnsecAmount(WebDriver driver)
     {
         element = driver.findElement(map.getObject("TXT_LIMIT_PRO_UNSEC_AMOUNT"));
+        return element;
+	}
+	
+	public static WebElement txtLimitProUnsecAmount(WebDriver driver, int no)
+    {
+        element = driver.findElement(map.getObject("TXT_LIMIT_PRO_UNSEC_AMOUNT",no));
         return element;
 	}
 	

@@ -62,6 +62,47 @@ public class ObjectMap {
 		return myObject;
 	}
 	
+	public By getObject(String logicalElementName, int no)
+	{
+		//Read value using the logical name as Key
+		String locator = properties.getProperty(logicalElementName)+no;
+		
+		//Split the value which contains locator type and locator value
+		String locatorType = locator.split(">")[0];
+		String locatorValue = locator.split(">")[1];
+		
+		By myObject = null;
+
+		switch(locatorType.toLowerCase()) 
+		{
+		    case "id":
+		    	myObject = By.id(locatorValue);
+		        break;
+		    case "name":
+		    	myObject = By.name(locatorValue);
+		        break;
+		    case "class":
+		    	myObject = By.className(locatorValue);
+		        break;
+		    case "link":
+		    	myObject = By.linkText(locatorValue);
+		        break;
+		    case "partial":
+		    	myObject = By.partialLinkText(locatorValue);
+		        break;
+		    case "css":
+		    	myObject = By.cssSelector(locatorValue);
+		        break;
+		    case "xpath":
+		    	myObject = By.xpath(locatorValue);
+		        break;
+		    default:
+				myObject = By.id(locatorValue);
+		}
+
+		return myObject;
+	}
+	
 	public String getValue(String objectName) 
 	{
 		return properties.getProperty(objectName).toString();

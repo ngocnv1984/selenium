@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10245" started-at="2016-03-17T10:57:37Z" finished-at="2016-03-17T10:57:48Z">
+  <suite name="Default suite" duration-ms="48318" started-at="2016-03-18T04:27:48Z" finished-at="2016-03-18T04:28:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10245" started-at="2016-03-17T10:57:37Z" finished-at="2016-03-17T10:57:48Z">
+    <test name="Default test" duration-ms="48318" started-at="2016-03-18T04:27:48Z" finished-at="2016-03-18T04:28:36Z">
       <class name="Testcases.OpenLimitControlTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="setUp" is-config="true" duration-ms="3059" started-at="2016-03-17T17:57:38Z" finished-at="2016-03-17T17:57:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="setUp" is-config="true" duration-ms="3012" started-at="2016-03-18T11:27:48Z" finished-at="2016-03-18T11:27:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenLimitControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="OpenLimitControl" duration-ms="6710" started-at="2016-03-17T17:57:41Z" data-provider="DataSource" finished-at="2016-03-17T17:57:47Z">
+        <test-method status="PASS" signature="OpenLimitControl(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="OpenLimitControl" duration-ms="44831" started-at="2016-03-18T11:27:51Z" data-provider="DataSource" finished-at="2016-03-18T11:28:36Z">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[1311268]]>
+                <![CDATA[2680796]]>
               </value>
             </param>
             <param index="2">
@@ -70,7 +70,7 @@
             </param>
             <param index="11">
               <value>
-                <![CDATA[100000000]]>
+                <![CDATA[300000000]]>
               </value>
             </param>
             <param index="12">
@@ -80,7 +80,7 @@
             </param>
             <param index="13">
               <value>
-                <![CDATA[100000000]]>
+                <![CDATA[300000000]]>
               </value>
             </param>
             <param index="14">
@@ -107,12 +107,12 @@
             </param>
             <param index="20">
               <value>
-                <![CDATA[100000000]]>
+                <![CDATA[300000000]]>
               </value>
             </param>
             <param index="21">
               <value>
-                <![CDATA[100000000]]>
+                <![CDATA[300000000]]>
               </value>
             </param>
             <param index="22">
@@ -122,7 +122,7 @@
             </param>
             <param index="23">
               <value>
-                <![CDATA[6406-0-100000000]]>
+                <![CDATA[6404-0-100000000/6405-0-100000000/6406-0-100000000]]>
               </value>
             </param>
             <param index="24">
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenLimitControl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="249" started-at="2016-03-17T17:57:47Z" finished-at="2016-03-17T17:57:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.OpenLimitControlTest@3ac3fd8b]" name="tearDown" is-config="true" duration-ms="256" started-at="2016-03-18T11:28:36Z" finished-at="2016-03-18T11:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
