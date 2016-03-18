@@ -4949,3 +4949,35 @@
 2016-03-18 11:28:31,396 INFO  [Log] 2680796.0066400.01 
 2016-03-18 11:28:31,397 INFO  [Log] 2680796.0066406.01 
 2016-03-18 11:28:31,397 INFO  [Log] 2680796.0066406.01 
+2016-03-18 13:36:31,578 INFO  [Log] 
+ 
+2016-03-18 13:36:31,579 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-18 13:36:31,579 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-18 13:36:31,579 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-18 13:36:34,713 INFO  [Log] Input txt_UserName 
+2016-03-18 13:36:34,762 INFO  [Log] Input txt_Password 
+2016-03-18 13:36:35,482 INFO  [Log] Click btn_SignIn 
+2016-03-18 13:36:35,569 INFO  [Log] Input txt_CommandLine 
+2016-03-18 13:36:35,735 INFO  [Log] Click btn_CommandImage 
+2016-03-18 13:36:36,085 INFO  [Log] Switch to LIMIT 
+2016-03-18 13:36:36,093 INFO  [Log] LIMIT 
+2016-03-18 13:36:39,065 INFO  [Log] Click lblOverride 
+2016-03-18 13:36:39,136 INFO  [Log] Switch to mainWinID 
+2016-03-18 13:36:39,280 INFO  [Log] Input txt_UserName 
+2016-03-18 13:36:39,317 INFO  [Log] Input txt_Password 
+2016-03-18 13:36:39,943 INFO  [Log] Click btn_SignIn 
+2016-03-18 13:36:40,002 INFO  [Log] Input txt_CommandLine 
+2016-03-18 13:36:40,161 INFO  [Log] Click btn_CommandImage 
+2016-03-18 13:36:40,482 INFO  [Log] Switch to LIMIT 
+2016-03-18 13:36:44,292 INFO  [Log] Click lblOverride 
+2016-03-18 13:36:44,330 INFO  [Log] Switch to mainWinID 
+2016-03-18 13:36:44,471 INFO  [Log] Input txt_UserName 
+2016-03-18 13:36:44,514 INFO  [Log] Input txt_Password 
+2016-03-18 13:36:45,155 INFO  [Log] Click btn_SignIn 
+2016-03-18 13:36:45,229 INFO  [Log] Input txt_CommandLine 
+2016-03-18 13:36:45,383 INFO  [Log] Click btn_CommandImage 
+2016-03-18 13:36:45,678 INFO  [Log] Switch to LIMIT 
+2016-03-18 13:36:46,794 INFO  [Log] 2680797.0066400.01 
+2016-03-18 13:36:46,794 INFO  [Log] 2680797.0066406.01 
+2016-03-18 13:36:46,794 INFO  [Log] 2680797.0066406.01 

@@ -111,30 +111,16 @@ public class OpenLimitControlTest extends TestBase {
 		else
 			Log.info("lblOverride not found");
 		
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 		// Authorize CIF
-		signin.switchMainId();
-		signin.signIn(driver,SignInPage.authoriseUser(),SignInPage.authorisePassword());
-		signin.navigateToVersion(OpenLimitControlPage.globalLimitVersion(),OpenLimitControlPage.globalLimitTitle());
-		
-		clearAndType(OpenLimitControlPage.txtTransactionId(driver), cif+"."+globalLimit);
-		OpenLimitControlPage.btnPerform(driver).click();
-		OpenLimitControlPage.btnAuthorise(driver).click();		
-		
-		Log.info(cif+"."+globalLimit);
-		
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		signin.switchMainId();
+//		signin.signIn(driver,SignInPage.authoriseUser(),SignInPage.authorisePassword());
+//		signin.navigateToVersion(OpenLimitControlPage.globalLimitVersion(),OpenLimitControlPage.globalLimitTitle());
+//		
+//		clearAndType(OpenLimitControlPage.txtTransactionId(driver), cif+"."+globalLimit);
+//		OpenLimitControlPage.btnPerform(driver).click();
+//		OpenLimitControlPage.btnAuthorise(driver).click();		
+//		
+//		Log.info(cif+"."+globalLimit);
 		
 		//PRODUCT LIMIT
 		signin.switchMainId();
@@ -216,13 +202,6 @@ public class OpenLimitControlTest extends TestBase {
 		else
 			Log.info("lblOverride not found");
         
-        try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        
         signin.switchMainId();
 		signin.signIn(driver,SignInPage.authoriseUser(),SignInPage.authorisePassword());
 		signin.navigateToVersion(OpenLimitControlPage.productLimitVersion(),OpenLimitControlPage.productLimitTitle());
@@ -234,13 +213,6 @@ public class OpenLimitControlTest extends TestBase {
 		Log.info(cif+"."+productLimit);
 		Log.info(cif+".006"+subproduct[0]+".01");
 		Log.info(cif+".006"+subproduct[0]+".01");
-		
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 	
 	@AfterMethod
