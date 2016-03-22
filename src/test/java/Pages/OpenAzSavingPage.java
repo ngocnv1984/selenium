@@ -36,6 +36,18 @@ public class OpenAzSavingPage extends TestBase
 		return inputValue;
 	}
 	
+	public static String mipVersion()
+	{
+		inputValue = map.getValue("MIP_VERSION");
+		return inputValue;
+	}
+	
+	public static String mipTitle()
+	{
+		inputValue = map.getValue("MIP_TITLE");
+		return inputValue;
+	}
+	
 	////////////// GET OBJECT /////////////////////	
 	public static WebElement btnNew(WebDriver driver)
     {
@@ -130,6 +142,24 @@ public class OpenAzSavingPage extends TestBase
 	public static WebElement txtMobilePhone(WebDriver driver)
     {
         element = driver.findElement(map.getObject("TXT_MOBILE_PHONE"));
+        return element;
+	}
+	
+	public static WebElement tabChgsSchedules(WebDriver driver)
+    {
+        element = driver.findElement(map.getObject("TAB_CHGS_SCHEDULES"));
+        return element;
+	}
+	
+	public static WebElement rbtSchedulesN(WebDriver driver)
+    {
+        element = driver.findElement(map.getObject("RBT_SCHEDULES_N"));
+        return element;
+	}
+	
+	public static WebElement rbtCalculationBasePrincipal(WebDriver driver)
+    {
+        element = driver.findElement(map.getObject("RBT_CALCULATION_BASE_PRINCIPAL"));
         return element;
 	}
 	

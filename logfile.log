@@ -1,0 +1,925 @@
+2016-03-21 11:09:11,195 INFO  [Log] 
+ 
+2016-03-21 11:09:11,195 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:09:11,195 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:09:11,195 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:09:14,505 INFO  [Log] Input txt_UserName 
+2016-03-21 11:09:14,548 INFO  [Log] Input txt_Password 
+2016-03-21 11:09:17,001 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:09:17,069 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:09:17,217 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:09:18,489 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:09:18,489 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:09:20,376 INFO  [Log] btnNew found 
+2016-03-21 11:09:20,435 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:09:20,498 INFO  [Log] txtShortName found 
+2016-03-21 11:09:20,558 INFO  [Log] txtFullName found 
+2016-03-21 11:09:20,607 INFO  [Log] txtSector found 
+2016-03-21 11:09:20,651 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:09:22,462 INFO  [Log] txtTarget found 
+2016-03-21 11:09:22,557 INFO  [Log] txtDocumentType found 
+2016-03-21 11:09:22,615 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:09:22,666 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:09:22,718 INFO  [Log] txtIssueDate found 
+2016-03-21 11:09:22,772 INFO  [Log] txtLegalId found 
+2016-03-21 11:09:22,816 INFO  [Log] txtNationality found 
+2016-03-21 11:09:22,859 INFO  [Log] txtResidence found 
+2016-03-21 11:09:22,900 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:09:22,950 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:09:22,998 INFO  [Log] txtBirthDate found 
+2016-03-21 11:09:23,044 INFO  [Log] txtLanguage found 
+2016-03-21 11:09:23,107 INFO  [Log] txtStreet found 
+2016-03-21 11:09:23,157 INFO  [Log] txtTown found 
+2016-03-21 11:09:23,210 INFO  [Log] txtProvince found 
+2016-03-21 11:09:23,264 INFO  [Log] txtAddStreet found 
+2016-03-21 11:09:23,307 INFO  [Log] txtAddProvince found 
+2016-03-21 11:09:23,348 INFO  [Log] txtDao found 
+2016-03-21 11:09:23,390 INFO  [Log] txtDaoPb found 
+2016-03-21 11:09:23,489 INFO  [Log] rbtPcb found 
+2016-03-21 11:09:23,632 INFO  [Log] btnTabOther found 
+2016-03-21 11:09:23,711 INFO  [Log] rbtGender found 
+2016-03-21 11:09:23,799 INFO  [Log] ddlContactType found 
+2016-03-21 11:09:23,850 INFO  [Log] txtContactNumber found 
+2016-03-21 11:09:23,914 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:09:27,422 INFO  [Log] btnCommit found 
+2016-03-21 11:09:37,636 INFO  [Log] lblOverride not found 
+2016-03-21 11:09:37,683 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:09:37,897 INFO  [Log] Input txt_UserName 
+2016-03-21 11:09:37,945 INFO  [Log] Input txt_Password 
+2016-03-21 11:09:40,760 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:09:40,826 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:09:40,993 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:09:42,171 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:09:45,086 INFO  [Log] 2632777 
+2016-03-21 11:09:45,501 INFO  [Log] 
+ 
+2016-03-21 11:09:45,501 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:09:45,501 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:09:45,501 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:09:48,077 INFO  [Log] Input txt_UserName 
+2016-03-21 11:09:48,155 INFO  [Log] Input txt_Password 
+2016-03-21 11:09:48,859 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:09:48,921 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:09:49,085 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:09:49,599 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:09:49,599 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:09:51,781 INFO  [Log] btnNew found 
+2016-03-21 11:09:51,835 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:09:51,889 INFO  [Log] txtShortName found 
+2016-03-21 11:09:51,940 INFO  [Log] txtFullName found 
+2016-03-21 11:09:51,981 INFO  [Log] txtSector found 
+2016-03-21 11:09:52,024 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:09:53,536 INFO  [Log] txtTarget found 
+2016-03-21 11:09:53,590 INFO  [Log] txtDocumentType found 
+2016-03-21 11:09:53,632 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:09:53,672 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:09:53,716 INFO  [Log] txtIssueDate found 
+2016-03-21 11:09:53,757 INFO  [Log] txtLegalId found 
+2016-03-21 11:09:53,804 INFO  [Log] txtNationality found 
+2016-03-21 11:09:53,842 INFO  [Log] txtResidence found 
+2016-03-21 11:09:53,886 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:09:53,940 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:09:53,984 INFO  [Log] txtBirthDate found 
+2016-03-21 11:09:54,024 INFO  [Log] txtLanguage found 
+2016-03-21 11:09:54,075 INFO  [Log] txtStreet found 
+2016-03-21 11:09:54,118 INFO  [Log] txtTown found 
+2016-03-21 11:09:54,155 INFO  [Log] txtProvince found 
+2016-03-21 11:09:54,204 INFO  [Log] txtAddStreet found 
+2016-03-21 11:09:54,243 INFO  [Log] txtAddProvince found 
+2016-03-21 11:09:54,287 INFO  [Log] txtDao found 
+2016-03-21 11:09:54,345 INFO  [Log] txtDaoPb found 
+2016-03-21 11:09:54,510 INFO  [Log] rbtPcb found 
+2016-03-21 11:09:54,658 INFO  [Log] btnTabOther found 
+2016-03-21 11:09:54,735 INFO  [Log] rbtGender found 
+2016-03-21 11:09:54,844 INFO  [Log] ddlContactType found 
+2016-03-21 11:09:54,891 INFO  [Log] txtContactNumber found 
+2016-03-21 11:09:54,947 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:09:57,497 INFO  [Log] btnCommit found 
+2016-03-21 11:10:07,620 INFO  [Log] lblOverride not found 
+2016-03-21 11:10:07,659 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:10:07,833 INFO  [Log] Input txt_UserName 
+2016-03-21 11:10:07,877 INFO  [Log] Input txt_Password 
+2016-03-21 11:10:08,573 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:10:08,639 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:10:08,800 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:10:09,085 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:10:10,605 INFO  [Log] 2632778 
+2016-03-21 11:10:10,857 INFO  [Log] 
+ 
+2016-03-21 11:10:10,857 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:10:10,857 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:10:10,857 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:10:15,728 INFO  [Log] Input txt_UserName 
+2016-03-21 11:10:15,800 INFO  [Log] Input txt_Password 
+2016-03-21 11:10:16,578 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:10:16,639 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:10:16,804 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:10:17,399 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:10:17,399 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:10:18,284 INFO  [Log] btnNew found 
+2016-03-21 11:10:18,334 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:10:18,382 INFO  [Log] txtShortName found 
+2016-03-21 11:10:18,438 INFO  [Log] txtFullName found 
+2016-03-21 11:10:18,476 INFO  [Log] txtSector found 
+2016-03-21 11:10:18,512 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:10:18,565 INFO  [Log] txtTarget found 
+2016-03-21 11:10:18,621 INFO  [Log] txtDocumentType found 
+2016-03-21 11:10:18,662 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:10:18,698 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:10:18,743 INFO  [Log] txtIssueDate found 
+2016-03-21 11:10:18,788 INFO  [Log] txtLegalId found 
+2016-03-21 11:10:18,823 INFO  [Log] txtNationality found 
+2016-03-21 11:10:18,859 INFO  [Log] txtResidence found 
+2016-03-21 11:10:18,892 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:10:18,932 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:10:18,975 INFO  [Log] txtBirthDate found 
+2016-03-21 11:10:19,010 INFO  [Log] txtLanguage found 
+2016-03-21 11:10:19,060 INFO  [Log] txtStreet found 
+2016-03-21 11:10:19,107 INFO  [Log] txtTown found 
+2016-03-21 11:10:19,157 INFO  [Log] txtProvince found 
+2016-03-21 11:10:19,202 INFO  [Log] txtAddStreet found 
+2016-03-21 11:10:19,240 INFO  [Log] txtAddProvince found 
+2016-03-21 11:10:19,278 INFO  [Log] txtDao found 
+2016-03-21 11:10:19,313 INFO  [Log] txtDaoPb found 
+2016-03-21 11:10:19,387 INFO  [Log] rbtPcb found 
+2016-03-21 11:10:19,516 INFO  [Log] btnTabOther found 
+2016-03-21 11:10:19,602 INFO  [Log] rbtGender found 
+2016-03-21 11:10:19,706 INFO  [Log] ddlContactType found 
+2016-03-21 11:10:19,748 INFO  [Log] txtContactNumber found 
+2016-03-21 11:10:19,801 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:10:22,404 INFO  [Log] btnCommit found 
+2016-03-21 11:10:32,469 INFO  [Log] lblOverride not found 
+2016-03-21 11:10:32,510 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:10:32,660 INFO  [Log] Input txt_UserName 
+2016-03-21 11:10:32,706 INFO  [Log] Input txt_Password 
+2016-03-21 11:10:33,467 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:10:33,534 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:10:33,685 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:10:34,001 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:10:35,840 INFO  [Log] 2632779 
+2016-03-21 11:10:36,113 INFO  [Log] 
+ 
+2016-03-21 11:10:36,113 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:10:36,113 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:10:36,113 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:10:38,417 INFO  [Log] Input txt_UserName 
+2016-03-21 11:10:38,475 INFO  [Log] Input txt_Password 
+2016-03-21 11:10:39,655 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:10:39,731 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:10:39,926 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:10:40,346 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:10:40,346 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:10:41,603 INFO  [Log] btnNew found 
+2016-03-21 11:10:41,665 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:10:41,723 INFO  [Log] txtShortName found 
+2016-03-21 11:10:41,777 INFO  [Log] txtFullName found 
+2016-03-21 11:10:41,820 INFO  [Log] txtSector found 
+2016-03-21 11:10:41,859 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:10:43,397 INFO  [Log] txtTarget found 
+2016-03-21 11:10:43,550 INFO  [Log] txtDocumentType found 
+2016-03-21 11:10:43,602 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:10:43,649 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:10:43,697 INFO  [Log] txtIssueDate found 
+2016-03-21 11:10:43,741 INFO  [Log] txtLegalId found 
+2016-03-21 11:10:43,777 INFO  [Log] txtNationality found 
+2016-03-21 11:10:43,822 INFO  [Log] txtResidence found 
+2016-03-21 11:10:43,856 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:10:43,903 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:10:43,951 INFO  [Log] txtBirthDate found 
+2016-03-21 11:10:43,994 INFO  [Log] txtLanguage found 
+2016-03-21 11:10:44,050 INFO  [Log] txtStreet found 
+2016-03-21 11:10:44,095 INFO  [Log] txtTown found 
+2016-03-21 11:10:44,137 INFO  [Log] txtProvince found 
+2016-03-21 11:10:44,191 INFO  [Log] txtAddStreet found 
+2016-03-21 11:10:44,242 INFO  [Log] txtAddProvince found 
+2016-03-21 11:10:44,286 INFO  [Log] txtDao found 
+2016-03-21 11:10:44,324 INFO  [Log] txtDaoPb found 
+2016-03-21 11:10:44,405 INFO  [Log] rbtPcb found 
+2016-03-21 11:10:44,540 INFO  [Log] btnTabOther found 
+2016-03-21 11:10:44,624 INFO  [Log] rbtGender found 
+2016-03-21 11:10:44,713 INFO  [Log] ddlContactType found 
+2016-03-21 11:10:44,764 INFO  [Log] txtContactNumber found 
+2016-03-21 11:10:44,826 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:10:45,938 INFO  [Log] btnCommit found 
+2016-03-21 11:10:56,050 INFO  [Log] lblOverride not found 
+2016-03-21 11:10:56,091 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:10:56,253 INFO  [Log] Input txt_UserName 
+2016-03-21 11:10:56,343 INFO  [Log] Input txt_Password 
+2016-03-21 11:10:57,112 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:10:57,182 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:10:57,337 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:10:57,641 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:10:59,242 INFO  [Log] 2632780 
+2016-03-21 11:10:59,396 INFO  [Log] 
+ 
+2016-03-21 11:10:59,396 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:10:59,396 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:10:59,396 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:11:02,088 INFO  [Log] Input txt_UserName 
+2016-03-21 11:11:02,131 INFO  [Log] Input txt_Password 
+2016-03-21 11:11:02,931 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:11:03,012 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:11:03,173 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:11:03,778 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:11:03,778 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:11:04,665 INFO  [Log] btnNew found 
+2016-03-21 11:11:04,751 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:11:04,807 INFO  [Log] txtShortName found 
+2016-03-21 11:11:04,859 INFO  [Log] txtFullName found 
+2016-03-21 11:11:04,898 INFO  [Log] txtSector found 
+2016-03-21 11:11:04,945 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:11:06,393 INFO  [Log] txtTarget found 
+2016-03-21 11:11:06,454 INFO  [Log] txtDocumentType found 
+2016-03-21 11:11:06,499 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:11:06,545 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:11:06,604 INFO  [Log] txtIssueDate found 
+2016-03-21 11:11:06,650 INFO  [Log] txtLegalId found 
+2016-03-21 11:11:06,694 INFO  [Log] txtNationality found 
+2016-03-21 11:11:06,732 INFO  [Log] txtResidence found 
+2016-03-21 11:11:06,767 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:11:06,814 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:11:06,859 INFO  [Log] txtBirthDate found 
+2016-03-21 11:11:06,897 INFO  [Log] txtLanguage found 
+2016-03-21 11:11:06,949 INFO  [Log] txtStreet found 
+2016-03-21 11:11:06,994 INFO  [Log] txtTown found 
+2016-03-21 11:11:07,034 INFO  [Log] txtProvince found 
+2016-03-21 11:11:07,088 INFO  [Log] txtAddStreet found 
+2016-03-21 11:11:07,127 INFO  [Log] txtAddProvince found 
+2016-03-21 11:11:07,164 INFO  [Log] txtDao found 
+2016-03-21 11:11:07,214 INFO  [Log] txtDaoPb found 
+2016-03-21 11:11:07,294 INFO  [Log] rbtPcb found 
+2016-03-21 11:11:07,431 INFO  [Log] btnTabOther found 
+2016-03-21 11:11:07,506 INFO  [Log] rbtGender found 
+2016-03-21 11:11:07,595 INFO  [Log] ddlContactType found 
+2016-03-21 11:11:07,641 INFO  [Log] txtContactNumber found 
+2016-03-21 11:11:07,700 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:11:10,956 INFO  [Log] btnCommit found 
+2016-03-21 11:11:21,091 INFO  [Log] lblOverride not found 
+2016-03-21 11:11:21,136 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:11:21,302 INFO  [Log] Input txt_UserName 
+2016-03-21 11:11:21,353 INFO  [Log] Input txt_Password 
+2016-03-21 11:11:22,154 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:11:22,216 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:11:22,372 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:11:22,761 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:11:25,474 INFO  [Log] 2632781 
+2016-03-21 11:11:25,665 INFO  [Log] 
+ 
+2016-03-21 11:11:25,665 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:11:25,665 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:11:25,665 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:11:28,556 INFO  [Log] Input txt_UserName 
+2016-03-21 11:11:28,600 INFO  [Log] Input txt_Password 
+2016-03-21 11:11:29,857 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:11:29,944 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:11:30,092 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:11:30,404 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:11:30,404 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:11:31,341 INFO  [Log] btnNew found 
+2016-03-21 11:11:31,398 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:11:31,451 INFO  [Log] txtShortName found 
+2016-03-21 11:11:31,502 INFO  [Log] txtFullName found 
+2016-03-21 11:11:31,540 INFO  [Log] txtSector found 
+2016-03-21 11:11:31,583 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:11:32,960 INFO  [Log] txtTarget found 
+2016-03-21 11:11:33,021 INFO  [Log] txtDocumentType found 
+2016-03-21 11:11:33,065 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:11:33,107 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:11:33,154 INFO  [Log] txtIssueDate found 
+2016-03-21 11:11:33,201 INFO  [Log] txtLegalId found 
+2016-03-21 11:11:33,238 INFO  [Log] txtNationality found 
+2016-03-21 11:11:33,274 INFO  [Log] txtResidence found 
+2016-03-21 11:11:33,314 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:11:33,364 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:11:33,408 INFO  [Log] txtBirthDate found 
+2016-03-21 11:11:33,453 INFO  [Log] txtLanguage found 
+2016-03-21 11:11:33,503 INFO  [Log] txtStreet found 
+2016-03-21 11:11:33,549 INFO  [Log] txtTown found 
+2016-03-21 11:11:33,594 INFO  [Log] txtProvince found 
+2016-03-21 11:11:33,647 INFO  [Log] txtAddStreet found 
+2016-03-21 11:11:33,689 INFO  [Log] txtAddProvince found 
+2016-03-21 11:11:33,732 INFO  [Log] txtDao found 
+2016-03-21 11:11:33,781 INFO  [Log] txtDaoPb found 
+2016-03-21 11:11:33,861 INFO  [Log] rbtPcb found 
+2016-03-21 11:11:33,992 INFO  [Log] btnTabOther found 
+2016-03-21 11:11:34,079 INFO  [Log] rbtGender found 
+2016-03-21 11:11:34,163 INFO  [Log] ddlContactType found 
+2016-03-21 11:11:34,209 INFO  [Log] txtContactNumber found 
+2016-03-21 11:11:34,265 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:11:36,609 INFO  [Log] btnCommit found 
+2016-03-21 11:11:46,632 INFO  [Log] lblOverride not found 
+2016-03-21 11:11:46,678 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:11:46,849 INFO  [Log] Input txt_UserName 
+2016-03-21 11:11:46,892 INFO  [Log] Input txt_Password 
+2016-03-21 11:11:47,512 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:11:47,582 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:11:47,738 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:11:48,020 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:11:49,617 INFO  [Log] 2632782 
+2016-03-21 11:11:49,760 INFO  [Log] 
+ 
+2016-03-21 11:11:49,760 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:11:49,760 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:11:49,760 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:11:52,491 INFO  [Log] Input txt_UserName 
+2016-03-21 11:11:52,530 INFO  [Log] Input txt_Password 
+2016-03-21 11:11:53,325 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:11:53,390 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:11:53,544 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:11:54,313 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:11:54,313 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:11:55,096 INFO  [Log] btnNew found 
+2016-03-21 11:11:55,146 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:11:55,197 INFO  [Log] txtShortName found 
+2016-03-21 11:11:55,247 INFO  [Log] txtFullName found 
+2016-03-21 11:11:55,282 INFO  [Log] txtSector found 
+2016-03-21 11:11:55,323 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:11:56,765 INFO  [Log] txtTarget found 
+2016-03-21 11:11:56,825 INFO  [Log] txtDocumentType found 
+2016-03-21 11:11:56,868 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:11:56,912 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:11:56,962 INFO  [Log] txtIssueDate found 
+2016-03-21 11:11:57,009 INFO  [Log] txtLegalId found 
+2016-03-21 11:11:57,047 INFO  [Log] txtNationality found 
+2016-03-21 11:11:57,085 INFO  [Log] txtResidence found 
+2016-03-21 11:11:57,122 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:11:57,168 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:11:57,211 INFO  [Log] txtBirthDate found 
+2016-03-21 11:11:57,246 INFO  [Log] txtLanguage found 
+2016-03-21 11:11:57,296 INFO  [Log] txtStreet found 
+2016-03-21 11:11:57,340 INFO  [Log] txtTown found 
+2016-03-21 11:11:57,382 INFO  [Log] txtProvince found 
+2016-03-21 11:11:57,432 INFO  [Log] txtAddStreet found 
+2016-03-21 11:11:57,476 INFO  [Log] txtAddProvince found 
+2016-03-21 11:11:57,514 INFO  [Log] txtDao found 
+2016-03-21 11:11:57,559 INFO  [Log] txtDaoPb found 
+2016-03-21 11:11:57,652 INFO  [Log] rbtPcb found 
+2016-03-21 11:11:57,783 INFO  [Log] btnTabOther found 
+2016-03-21 11:11:57,866 INFO  [Log] rbtGender found 
+2016-03-21 11:11:57,949 INFO  [Log] ddlContactType found 
+2016-03-21 11:11:57,993 INFO  [Log] txtContactNumber found 
+2016-03-21 11:11:58,053 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:11:59,251 INFO  [Log] btnCommit found 
+2016-03-21 11:12:09,335 INFO  [Log] lblOverride not found 
+2016-03-21 11:12:09,379 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:12:09,540 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:09,582 INFO  [Log] Input txt_Password 
+2016-03-21 11:12:10,604 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:12:10,720 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:12:10,899 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:12:11,417 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:12:12,801 INFO  [Log] 2632783 
+2016-03-21 11:12:13,151 INFO  [Log] 
+ 
+2016-03-21 11:12:13,151 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:12:13,151 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:12:13,151 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:12:16,633 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:16,682 INFO  [Log] Input txt_Password 
+2016-03-21 11:12:17,488 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:12:17,560 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:12:17,713 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:12:17,997 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:12:17,997 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:12:18,750 INFO  [Log] btnNew found 
+2016-03-21 11:12:18,801 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:12:18,868 INFO  [Log] txtShortName found 
+2016-03-21 11:12:18,917 INFO  [Log] txtFullName found 
+2016-03-21 11:12:18,954 INFO  [Log] txtSector found 
+2016-03-21 11:12:18,996 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:12:20,403 INFO  [Log] txtTarget found 
+2016-03-21 11:12:20,461 INFO  [Log] txtDocumentType found 
+2016-03-21 11:12:20,505 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:12:20,553 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:12:20,600 INFO  [Log] txtIssueDate found 
+2016-03-21 11:12:20,653 INFO  [Log] txtLegalId found 
+2016-03-21 11:12:20,689 INFO  [Log] txtNationality found 
+2016-03-21 11:12:20,729 INFO  [Log] txtResidence found 
+2016-03-21 11:12:20,766 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:12:20,808 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:12:20,851 INFO  [Log] txtBirthDate found 
+2016-03-21 11:12:20,886 INFO  [Log] txtLanguage found 
+2016-03-21 11:12:20,935 INFO  [Log] txtStreet found 
+2016-03-21 11:12:20,981 INFO  [Log] txtTown found 
+2016-03-21 11:12:21,021 INFO  [Log] txtProvince found 
+2016-03-21 11:12:21,070 INFO  [Log] txtAddStreet found 
+2016-03-21 11:12:21,111 INFO  [Log] txtAddProvince found 
+2016-03-21 11:12:21,149 INFO  [Log] txtDao found 
+2016-03-21 11:12:21,188 INFO  [Log] txtDaoPb found 
+2016-03-21 11:12:21,274 INFO  [Log] rbtPcb found 
+2016-03-21 11:12:21,404 INFO  [Log] btnTabOther found 
+2016-03-21 11:12:21,487 INFO  [Log] rbtGender found 
+2016-03-21 11:12:21,576 INFO  [Log] ddlContactType found 
+2016-03-21 11:12:21,621 INFO  [Log] txtContactNumber found 
+2016-03-21 11:12:21,683 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:12:22,572 INFO  [Log] btnCommit found 
+2016-03-21 11:12:32,714 INFO  [Log] lblOverride not found 
+2016-03-21 11:12:32,760 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:12:32,905 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:32,947 INFO  [Log] Input txt_Password 
+2016-03-21 11:12:33,609 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:12:33,668 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:12:33,835 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:12:34,322 INFO  [Log] 
+ 
+2016-03-21 11:12:34,322 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:12:34,322 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:12:34,322 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:12:36,843 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:36,888 INFO  [Log] Input txt_Password 
+2016-03-21 11:12:37,766 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:12:37,891 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:12:38,040 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:12:38,449 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:12:38,449 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:12:39,262 INFO  [Log] btnNew found 
+2016-03-21 11:12:39,311 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:12:39,361 INFO  [Log] txtShortName found 
+2016-03-21 11:12:39,413 INFO  [Log] txtFullName found 
+2016-03-21 11:12:39,451 INFO  [Log] txtSector found 
+2016-03-21 11:12:39,491 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:12:40,961 INFO  [Log] txtTarget found 
+2016-03-21 11:12:41,022 INFO  [Log] txtDocumentType found 
+2016-03-21 11:12:41,070 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:12:41,111 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:12:41,165 INFO  [Log] txtIssueDate found 
+2016-03-21 11:12:41,209 INFO  [Log] txtLegalId found 
+2016-03-21 11:12:41,245 INFO  [Log] txtNationality found 
+2016-03-21 11:12:41,284 INFO  [Log] txtResidence found 
+2016-03-21 11:12:41,320 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:12:41,363 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:12:41,408 INFO  [Log] txtBirthDate found 
+2016-03-21 11:12:41,443 INFO  [Log] txtLanguage found 
+2016-03-21 11:12:41,493 INFO  [Log] txtStreet found 
+2016-03-21 11:12:41,536 INFO  [Log] txtTown found 
+2016-03-21 11:12:41,579 INFO  [Log] txtProvince found 
+2016-03-21 11:12:41,637 INFO  [Log] txtAddStreet found 
+2016-03-21 11:12:41,677 INFO  [Log] txtAddProvince found 
+2016-03-21 11:12:41,713 INFO  [Log] txtDao found 
+2016-03-21 11:12:41,763 INFO  [Log] txtDaoPb found 
+2016-03-21 11:12:41,866 INFO  [Log] rbtPcb found 
+2016-03-21 11:12:42,008 INFO  [Log] btnTabOther found 
+2016-03-21 11:12:42,092 INFO  [Log] rbtGender found 
+2016-03-21 11:12:42,191 INFO  [Log] ddlContactType found 
+2016-03-21 11:12:42,237 INFO  [Log] txtContactNumber found 
+2016-03-21 11:12:42,296 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:12:43,194 INFO  [Log] btnCommit found 
+2016-03-21 11:12:53,246 INFO  [Log] lblOverride not found 
+2016-03-21 11:12:53,287 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:12:53,433 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:53,475 INFO  [Log] Input txt_Password 
+2016-03-21 11:12:54,115 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:12:54,198 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:12:54,358 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:12:54,746 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:12:56,299 INFO  [Log] 2632785 
+2016-03-21 11:12:56,511 INFO  [Log] 
+ 
+2016-03-21 11:12:56,511 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:12:56,511 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:12:56,511 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:12:59,467 INFO  [Log] Input txt_UserName 
+2016-03-21 11:12:59,536 INFO  [Log] Input txt_Password 
+2016-03-21 11:13:00,268 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:13:00,376 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:13:00,537 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:13:00,906 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:13:00,906 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:13:01,954 INFO  [Log] btnNew found 
+2016-03-21 11:13:02,004 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:13:02,062 INFO  [Log] txtShortName found 
+2016-03-21 11:13:02,114 INFO  [Log] txtFullName found 
+2016-03-21 11:13:02,151 INFO  [Log] txtSector found 
+2016-03-21 11:13:02,200 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:13:04,093 INFO  [Log] txtTarget found 
+2016-03-21 11:13:04,152 INFO  [Log] txtDocumentType found 
+2016-03-21 11:13:04,196 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:13:04,242 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:13:04,288 INFO  [Log] txtIssueDate found 
+2016-03-21 11:13:04,335 INFO  [Log] txtLegalId found 
+2016-03-21 11:13:04,371 INFO  [Log] txtNationality found 
+2016-03-21 11:13:04,413 INFO  [Log] txtResidence found 
+2016-03-21 11:13:04,449 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:13:04,495 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:13:04,535 INFO  [Log] txtBirthDate found 
+2016-03-21 11:13:04,570 INFO  [Log] txtLanguage found 
+2016-03-21 11:13:04,627 INFO  [Log] txtStreet found 
+2016-03-21 11:13:04,677 INFO  [Log] txtTown found 
+2016-03-21 11:13:04,721 INFO  [Log] txtProvince found 
+2016-03-21 11:13:04,775 INFO  [Log] txtAddStreet found 
+2016-03-21 11:13:04,815 INFO  [Log] txtAddProvince found 
+2016-03-21 11:13:04,850 INFO  [Log] txtDao found 
+2016-03-21 11:13:04,888 INFO  [Log] txtDaoPb found 
+2016-03-21 11:13:04,971 INFO  [Log] rbtPcb found 
+2016-03-21 11:13:05,101 INFO  [Log] btnTabOther found 
+2016-03-21 11:13:05,184 INFO  [Log] rbtGender found 
+2016-03-21 11:13:05,270 INFO  [Log] ddlContactType found 
+2016-03-21 11:13:05,315 INFO  [Log] txtContactNumber found 
+2016-03-21 11:13:05,374 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:13:06,215 INFO  [Log] btnCommit found 
+2016-03-21 11:13:16,376 INFO  [Log] lblOverride not found 
+2016-03-21 11:13:16,423 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:13:16,573 INFO  [Log] Input txt_UserName 
+2016-03-21 11:13:16,617 INFO  [Log] Input txt_Password 
+2016-03-21 11:13:17,545 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:13:17,601 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:13:17,755 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:13:18,433 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:13:20,375 INFO  [Log] 2632786 
+2016-03-21 11:13:20,587 INFO  [Log] 
+ 
+2016-03-21 11:13:20,587 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:13:20,587 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:13:20,587 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:13:24,318 INFO  [Log] Input txt_UserName 
+2016-03-21 11:13:24,384 INFO  [Log] Input txt_Password 
+2016-03-21 11:13:25,193 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:13:25,270 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:13:25,440 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:13:25,905 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:13:25,905 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:13:26,955 INFO  [Log] btnNew found 
+2016-03-21 11:13:27,010 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:13:27,073 INFO  [Log] txtShortName found 
+2016-03-21 11:13:27,124 INFO  [Log] txtFullName found 
+2016-03-21 11:13:27,160 INFO  [Log] txtSector found 
+2016-03-21 11:13:27,200 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:13:28,633 INFO  [Log] txtTarget found 
+2016-03-21 11:13:28,691 INFO  [Log] txtDocumentType found 
+2016-03-21 11:13:28,732 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:13:28,776 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:13:28,824 INFO  [Log] txtIssueDate found 
+2016-03-21 11:13:28,872 INFO  [Log] txtLegalId found 
+2016-03-21 11:13:28,908 INFO  [Log] txtNationality found 
+2016-03-21 11:13:28,942 INFO  [Log] txtResidence found 
+2016-03-21 11:13:28,975 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:13:29,021 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:13:29,072 INFO  [Log] txtBirthDate found 
+2016-03-21 11:13:29,107 INFO  [Log] txtLanguage found 
+2016-03-21 11:13:29,160 INFO  [Log] txtStreet found 
+2016-03-21 11:13:29,207 INFO  [Log] txtTown found 
+2016-03-21 11:13:29,250 INFO  [Log] txtProvince found 
+2016-03-21 11:13:29,305 INFO  [Log] txtAddStreet found 
+2016-03-21 11:13:29,349 INFO  [Log] txtAddProvince found 
+2016-03-21 11:13:29,388 INFO  [Log] txtDao found 
+2016-03-21 11:13:29,427 INFO  [Log] txtDaoPb found 
+2016-03-21 11:13:29,515 INFO  [Log] rbtPcb found 
+2016-03-21 11:13:29,641 INFO  [Log] btnTabOther found 
+2016-03-21 11:13:29,731 INFO  [Log] rbtGender found 
+2016-03-21 11:13:29,822 INFO  [Log] ddlContactType found 
+2016-03-21 11:13:29,868 INFO  [Log] txtContactNumber found 
+2016-03-21 11:13:29,926 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:13:32,676 INFO  [Log] btnCommit found 
+2016-03-21 11:13:42,747 INFO  [Log] lblOverride not found 
+2016-03-21 11:13:42,792 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:13:42,993 INFO  [Log] Input txt_UserName 
+2016-03-21 11:13:43,040 INFO  [Log] Input txt_Password 
+2016-03-21 11:13:43,924 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:13:43,980 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:13:44,142 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:13:44,421 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:13:46,020 INFO  [Log] 2632787 
+2016-03-21 11:13:46,263 INFO  [Log] 
+ 
+2016-03-21 11:13:46,263 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 11:13:46,263 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 11:13:46,263 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 11:13:49,084 INFO  [Log] Input txt_UserName 
+2016-03-21 11:13:49,122 INFO  [Log] Input txt_Password 
+2016-03-21 11:13:50,009 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:13:50,096 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:13:50,245 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:13:50,531 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:13:50,531 INFO  [Log] Start <Open Individual Customer> Testcase 
+2016-03-21 11:13:51,390 INFO  [Log] btnNew found 
+2016-03-21 11:13:51,440 INFO  [Log] txtCustomerMnemonic found 
+2016-03-21 11:13:51,495 INFO  [Log] txtShortName found 
+2016-03-21 11:13:51,548 INFO  [Log] txtFullName found 
+2016-03-21 11:13:51,597 INFO  [Log] txtSector found 
+2016-03-21 11:13:51,641 INFO  [Log] txtVpbIndustry found 
+2016-03-21 11:13:53,166 INFO  [Log] txtTarget found 
+2016-03-21 11:13:53,222 INFO  [Log] txtDocumentType found 
+2016-03-21 11:13:53,263 INFO  [Log] txtDocumentNum found 
+2016-03-21 11:13:53,304 INFO  [Log] txtIssuePlace found 
+2016-03-21 11:13:53,350 INFO  [Log] txtIssueDate found 
+2016-03-21 11:13:53,397 INFO  [Log] txtLegalId found 
+2016-03-21 11:13:53,437 INFO  [Log] txtNationality found 
+2016-03-21 11:13:53,476 INFO  [Log] txtResidence found 
+2016-03-21 11:13:53,511 INFO  [Log] txtCustomerStatus found 
+2016-03-21 11:13:53,554 INFO  [Log] txtCompanyBook found 
+2016-03-21 11:13:53,599 INFO  [Log] txtBirthDate found 
+2016-03-21 11:13:53,632 INFO  [Log] txtLanguage found 
+2016-03-21 11:13:53,682 INFO  [Log] txtStreet found 
+2016-03-21 11:13:53,728 INFO  [Log] txtTown found 
+2016-03-21 11:13:53,769 INFO  [Log] txtProvince found 
+2016-03-21 11:13:53,821 INFO  [Log] txtAddStreet found 
+2016-03-21 11:13:53,864 INFO  [Log] txtAddProvince found 
+2016-03-21 11:13:53,904 INFO  [Log] txtDao found 
+2016-03-21 11:13:53,950 INFO  [Log] txtDaoPb found 
+2016-03-21 11:13:54,036 INFO  [Log] rbtPcb found 
+2016-03-21 11:13:54,167 INFO  [Log] btnTabOther found 
+2016-03-21 11:13:54,252 INFO  [Log] rbtGender found 
+2016-03-21 11:13:54,337 INFO  [Log] ddlContactType found 
+2016-03-21 11:13:54,381 INFO  [Log] txtContactNumber found 
+2016-03-21 11:13:54,439 INFO  [Log] txtEmailAddress found 
+2016-03-21 11:13:55,479 INFO  [Log] btnCommit found 
+2016-03-21 11:14:05,593 INFO  [Log] lblOverride not found 
+2016-03-21 11:14:05,636 INFO  [Log] Switch to mainWinID 
+2016-03-21 11:14:05,797 INFO  [Log] Input txt_UserName 
+2016-03-21 11:14:05,841 INFO  [Log] Input txt_Password 
+2016-03-21 11:14:06,588 INFO  [Log] Click btn_SignIn 
+2016-03-21 11:14:06,666 INFO  [Log] Input txt_CommandLine 
+2016-03-21 11:14:06,838 INFO  [Log] Click btn_CommandImage 
+2016-03-21 11:14:07,123 INFO  [Log] Switch to CUSTOMER 
+2016-03-21 11:14:08,520 INFO  [Log] 2632788 
+2016-03-21 14:49:42,193 INFO  [Log] 
+ 
+2016-03-21 14:49:42,193 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 14:49:42,193 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 14:49:42,193 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 16:21:03,297 INFO  [Log] 
+ 
+2016-03-21 16:21:03,297 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-21 16:21:03,298 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-21 16:21:03,298 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-21 16:21:06,429 INFO  [Log] 1311268 
+2016-03-22 10:48:48,318 INFO  [Log] Input txt_UserName 
+2016-03-22 10:48:48,372 INFO  [Log] Input txt_Password 
+2016-03-22 10:48:49,452 INFO  [Log] Click btn_SignIn 
+2016-03-22 10:48:49,533 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:48:49,688 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:48:50,076 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 10:48:50,083 INFO  [Log] ACCOUNT 
+2016-03-22 10:48:50,715 INFO  [Log] Click btnNew 
+2016-03-22 10:48:50,783 INFO  [Log] Input txtCustomerNo 
+2016-03-22 10:48:50,829 INFO  [Log] Input txtDepositType 
+2016-03-22 10:48:50,884 INFO  [Log] Input txtCurrency 
+2016-03-22 10:48:51,952 INFO  [Log] Click btnCommit 
+2016-03-22 10:48:51,969 INFO  [Log] Txn Complete: 97304227 10:48:52 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614716113893203 
+2016-03-22 10:48:51,969 INFO  [Log] Print lblResult 
+2016-03-22 10:48:52,075 INFO  [Log] Switch to mainWinID 
+2016-03-22 10:48:52,138 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:48:52,299 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:48:52,615 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 10:48:53,371 INFO  [Log] Input txtDepositProduct 
+2016-03-22 10:48:53,420 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 10:48:54,501 INFO  [Log] Input txtOpenDate 
+2016-03-22 10:48:54,546 INFO  [Log] Input txtMaturityDate 
+2016-03-22 10:48:54,599 INFO  [Log] Input txtDebitAccount 
+2016-03-22 10:48:54,647 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 10:48:54,767 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 10:55:53,284 INFO  [Log] Input txt_UserName 
+2016-03-22 10:55:53,344 INFO  [Log] Input txt_Password 
+2016-03-22 10:55:54,076 INFO  [Log] Click btn_SignIn 
+2016-03-22 10:55:54,174 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:55:54,354 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:55:54,690 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 10:55:54,703 INFO  [Log] ACCOUNT 
+2016-03-22 10:55:55,322 INFO  [Log] Click btnNew 
+2016-03-22 10:55:55,418 INFO  [Log] Input txtCustomerNo 
+2016-03-22 10:55:55,478 INFO  [Log] Input txtDepositType 
+2016-03-22 10:55:55,532 INFO  [Log] Input txtCurrency 
+2016-03-22 10:55:56,458 INFO  [Log] Click btnCommit 
+2016-03-22 10:55:56,485 INFO  [Log] Txn Complete: 97304238 10:55:57 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614620923935703 
+2016-03-22 10:55:56,485 INFO  [Log] Print lblResult 
+2016-03-22 10:55:56,568 INFO  [Log] Switch to mainWinID 
+2016-03-22 10:57:14,092 INFO  [Log] Input txt_UserName 
+2016-03-22 10:57:14,136 INFO  [Log] Input txt_Password 
+2016-03-22 10:57:14,916 INFO  [Log] Click btn_SignIn 
+2016-03-22 10:57:15,011 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:57:15,186 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:57:15,511 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 10:57:15,524 INFO  [Log] ACCOUNT 
+2016-03-22 10:57:16,161 INFO  [Log] Click btnNew 
+2016-03-22 10:57:16,237 INFO  [Log] Input txtCustomerNo 
+2016-03-22 10:57:16,287 INFO  [Log] Input txtDepositType 
+2016-03-22 10:57:16,345 INFO  [Log] Input txtCurrency 
+2016-03-22 10:57:17,279 INFO  [Log] Click btnCommit 
+2016-03-22 10:57:17,297 INFO  [Log] Txn Complete: 97304246 10:57:17 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614046303943800 
+2016-03-22 10:57:17,297 INFO  [Log] Print lblResult 
+2016-03-22 10:57:17,376 INFO  [Log] Switch to mainWinID 
+2016-03-22 10:57:17,455 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:57:17,626 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:57:17,938 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 10:57:18,745 INFO  [Log] Input txtDepositProduct 
+2016-03-22 10:57:18,791 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 10:57:19,562 INFO  [Log] Input txtOpenDate 
+2016-03-22 10:57:19,623 INFO  [Log] Input txtMaturityDate 
+2016-03-22 10:57:19,673 INFO  [Log] Input txtDebitAccount 
+2016-03-22 10:57:19,725 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 10:57:19,841 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 10:57:19,885 INFO  [Log] Input txtDao 
+2016-03-22 10:57:19,928 INFO  [Log] Input txtMobilePhone 
+2016-03-22 10:57:20,702 INFO  [Log] Click btnCommit 
+2016-03-22 10:57:30,851 INFO  [Log] lblOverride not found 
+2016-03-22 10:58:01,565 INFO  [Log] Input txt_UserName 
+2016-03-22 10:58:01,634 INFO  [Log] Input txt_Password 
+2016-03-22 10:58:02,346 INFO  [Log] Click btn_SignIn 
+2016-03-22 10:58:02,439 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:58:02,603 INFO  [Log] Click btn_CommandImage 
+2016-03-22 10:58:02,971 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 10:58:02,977 INFO  [Log] ACCOUNT 
+2016-03-22 10:58:03,541 INFO  [Log] Click btnNew 
+2016-03-22 10:58:03,610 INFO  [Log] Input txtCustomerNo 
+2016-03-22 10:58:03,656 INFO  [Log] Input txtDepositType 
+2016-03-22 10:58:03,704 INFO  [Log] Input txtCurrency 
+2016-03-22 10:58:04,786 INFO  [Log] Click btnCommit 
+2016-03-22 10:58:04,800 INFO  [Log] Txn Complete: 97304254 10:58:05 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614716113948503 
+2016-03-22 10:58:04,800 INFO  [Log] Print lblResult 
+2016-03-22 10:58:04,862 INFO  [Log] Switch to mainWinID 
+2016-03-22 10:58:04,922 INFO  [Log] Input txt_CommandLine 
+2016-03-22 10:58:05,119 INFO  [Log] Click btn_CommandImage 
+2016-03-22 11:54:32,916 INFO  [Log] Input txt_UserName 
+2016-03-22 11:54:32,972 INFO  [Log] Input txt_Password 
+2016-03-22 11:54:33,177 INFO  [Log] Click btn_SignIn 
+2016-03-22 11:55:04,318 INFO  [Log] Input txt_UserName 
+2016-03-22 11:55:04,385 INFO  [Log] Input txt_Password 
+2016-03-22 11:55:04,638 INFO  [Log] Click btn_SignIn 
+2016-03-22 11:57:08,948 INFO  [Log] Input txt_UserName 
+2016-03-22 11:57:09,007 INFO  [Log] Input txt_Password 
+2016-03-22 11:57:09,194 INFO  [Log] Click btn_SignIn 
+2016-03-22 12:02:55,588 INFO  [Log] Input txt_UserName 
+2016-03-22 12:02:55,659 INFO  [Log] Input txt_Password 
+2016-03-22 12:02:56,427 INFO  [Log] Click btn_SignIn 
+2016-03-22 12:02:56,541 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:02:56,707 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:02:57,032 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 12:02:57,038 INFO  [Log] ACCOUNT 
+2016-03-22 12:02:57,631 INFO  [Log] Click btnNew 
+2016-03-22 12:02:57,701 INFO  [Log] Input txtCustomerNo 
+2016-03-22 12:02:57,744 INFO  [Log] Input txtDepositType 
+2016-03-22 12:02:57,799 INFO  [Log] Input txtCurrency 
+2016-03-22 12:02:59,057 INFO  [Log] Click btnCommit 
+2016-03-22 12:02:59,074 INFO  [Log] Txn Complete: 97304262 12:02:59 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614620924337903 
+2016-03-22 12:02:59,074 INFO  [Log] Print lblResult 
+2016-03-22 12:02:59,150 INFO  [Log] Switch to mainWinID 
+2016-03-22 12:02:59,206 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:02:59,381 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:02:59,656 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 12:03:00,413 INFO  [Log] Input txtDepositProduct 
+2016-03-22 12:03:00,466 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 12:03:01,215 INFO  [Log] Input txtOpenDate 
+2016-03-22 12:03:01,255 INFO  [Log] Input txtMaturityDate 
+2016-03-22 12:03:01,307 INFO  [Log] Input txtDebitAccount 
+2016-03-22 12:03:01,365 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 12:03:01,497 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 12:03:01,536 INFO  [Log] Input txtDao 
+2016-03-22 12:03:01,592 INFO  [Log] Input txtMobilePhone 
+2016-03-22 12:03:04,227 INFO  [Log] Click btnCommit 
+2016-03-22 12:03:07,902 INFO  [Log] Click lblOverride 
+2016-03-22 12:03:07,921 INFO  [Log] Print lblResult: Txn Complete: 97304262 12:03:05 22 MAR 2016 AZ.ACCOUNT,FD.OPEN.VPB2 I - Deal slip printed: 17614620924338800 
+2016-03-22 12:03:07,970 INFO  [Log] Switch to mainWinID 
+2016-03-22 12:03:08,124 INFO  [Log] Input txt_UserName 
+2016-03-22 12:03:08,170 INFO  [Log] Input txt_Password 
+2016-03-22 12:03:08,786 INFO  [Log] Click btn_SignIn 
+2016-03-22 12:03:08,870 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:03:09,047 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:03:09,441 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 12:03:09,501 INFO  [Log] Input txtTransactionId 
+2016-03-22 12:03:09,911 INFO  [Log] Click btnPerform 
+2016-03-22 12:05:33,038 INFO  [Log] Input txt_UserName 
+2016-03-22 12:05:33,092 INFO  [Log] Input txt_Password 
+2016-03-22 12:05:33,807 INFO  [Log] Click btn_SignIn 
+2016-03-22 12:05:33,900 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:05:34,057 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:05:34,402 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 12:05:34,408 INFO  [Log] ACCOUNT 
+2016-03-22 12:05:35,015 INFO  [Log] Click btnNew 
+2016-03-22 12:05:35,080 INFO  [Log] Input txtCustomerNo 
+2016-03-22 12:05:35,121 INFO  [Log] Input txtDepositType 
+2016-03-22 12:05:35,179 INFO  [Log] Input txtCurrency 
+2016-03-22 12:05:36,137 INFO  [Log] Click btnCommit 
+2016-03-22 12:05:36,156 INFO  [Log] Txn Complete: 97304278 12:05:36 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614046304353603 
+2016-03-22 12:05:36,157 INFO  [Log] Print lblResult 
+2016-03-22 12:05:36,251 INFO  [Log] Switch to mainWinID 
+2016-03-22 12:05:36,320 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:05:36,512 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:05:36,783 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 12:05:37,571 INFO  [Log] Input txtDepositProduct 
+2016-03-22 12:05:37,620 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 12:05:38,385 INFO  [Log] Input txtOpenDate 
+2016-03-22 12:05:38,432 INFO  [Log] Input txtMaturityDate 
+2016-03-22 12:05:38,486 INFO  [Log] Input txtDebitAccount 
+2016-03-22 12:05:38,535 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 12:05:38,662 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 12:05:38,701 INFO  [Log] Input txtDao 
+2016-03-22 12:05:38,752 INFO  [Log] Input txtMobilePhone 
+2016-03-22 12:05:41,730 INFO  [Log] Click btnCommit 
+2016-03-22 12:05:43,918 INFO  [Log] Click lblOverride 
+2016-03-22 12:05:43,935 INFO  [Log] Print lblResult: Txn Complete: 97304278 12:05:43 22 MAR 2016 AZ.ACCOUNT,FD.OPEN.VPB2 I - Deal slip printed: 17614046304354400 
+2016-03-22 12:05:43,975 INFO  [Log] Switch to mainWinID 
+2016-03-22 12:05:44,131 INFO  [Log] Input txt_UserName 
+2016-03-22 12:05:44,180 INFO  [Log] Input txt_Password 
+2016-03-22 12:05:44,807 INFO  [Log] Click btn_SignIn 
+2016-03-22 12:05:44,892 INFO  [Log] Input txt_CommandLine 
+2016-03-22 12:05:45,048 INFO  [Log] Click btn_CommandImage 
+2016-03-22 12:05:45,334 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 12:05:45,395 INFO  [Log] Input txtTransactionId 
+2016-03-22 12:05:45,971 INFO  [Log] Click btnPerform 
+2016-03-22 12:05:48,111 INFO  [Log] Click btnAuthorise 
+2016-03-22 12:05:48,123 INFO  [Log] Print lblResult: Txn Complete: 97304278 12:05:47 22 MAR 2016 AZ.ACCOUNT,FD.OPEN.VPB2 A 
+2016-03-22 15:44:22,917 INFO  [Log] Input txt_UserName 
+2016-03-22 15:44:23,012 INFO  [Log] Input txt_Password 
+2016-03-22 15:44:23,994 INFO  [Log] Click btn_SignIn 
+2016-03-22 15:44:24,062 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:44:24,213 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:44:24,546 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 15:44:24,551 INFO  [Log] ACCOUNT 
+2016-03-22 15:44:25,149 INFO  [Log] Click btnNew 
+2016-03-22 15:44:25,224 INFO  [Log] Input txtCustomerNo 
+2016-03-22 15:44:25,266 INFO  [Log] Input txtDepositType 
+2016-03-22 15:44:25,313 INFO  [Log] Input txtCurrency 
+2016-03-22 15:44:26,240 INFO  [Log] Click btnCommit 
+2016-03-22 15:44:26,255 INFO  [Log] Txn Complete: 97304289 15:44:26 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614046305666603 
+2016-03-22 15:44:26,255 INFO  [Log] Print lblResult 
+2016-03-22 15:44:26,312 INFO  [Log] Switch to mainWinID 
+2016-03-22 15:44:26,375 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:44:26,532 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:44:26,817 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 15:44:27,581 INFO  [Log] Input txtDepositProduct 
+2016-03-22 15:44:27,621 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 15:44:28,326 INFO  [Log] Input txtOpenDate 
+2016-03-22 15:44:28,363 INFO  [Log] Input txtMaturityDate 
+2016-03-22 15:44:28,412 INFO  [Log] Input txtDebitAccount 
+2016-03-22 15:44:28,456 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 15:44:28,580 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 15:46:25,300 INFO  [Log] Input txt_UserName 
+2016-03-22 15:46:25,361 INFO  [Log] Input txt_Password 
+2016-03-22 15:46:26,096 INFO  [Log] Click btn_SignIn 
+2016-03-22 15:46:26,200 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:46:26,365 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:46:26,683 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 15:46:26,687 INFO  [Log] ACCOUNT 
+2016-03-22 15:46:27,296 INFO  [Log] Click btnNew 
+2016-03-22 15:46:27,360 INFO  [Log] Input txtCustomerNo 
+2016-03-22 15:46:27,405 INFO  [Log] Input txtDepositType 
+2016-03-22 15:46:27,457 INFO  [Log] Input txtCurrency 
+2016-03-22 15:46:28,284 INFO  [Log] Click btnCommit 
+2016-03-22 15:46:28,298 INFO  [Log] Txn Complete: 97304297 15:46:28 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614046305678803 
+2016-03-22 15:46:28,298 INFO  [Log] Print lblResult 
+2016-03-22 15:46:28,369 INFO  [Log] Switch to mainWinID 
+2016-03-22 15:46:28,427 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:46:28,575 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:46:28,851 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 15:46:29,543 INFO  [Log] Input txtDepositProduct 
+2016-03-22 15:46:29,588 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 15:46:30,293 INFO  [Log] Input txtOpenDate 
+2016-03-22 15:46:30,336 INFO  [Log] Input txtMaturityDate 
+2016-03-22 15:46:30,390 INFO  [Log] Input txtDebitAccount 
+2016-03-22 15:46:30,433 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 15:46:30,549 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 15:46:30,625 INFO  [Log] Input txtMobilePhone 
+2016-03-22 15:52:15,549 INFO  [Log] Input txt_UserName 
+2016-03-22 15:52:15,607 INFO  [Log] Input txt_Password 
+2016-03-22 15:52:16,336 INFO  [Log] Click btn_SignIn 
+2016-03-22 15:52:16,420 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:52:16,580 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:52:16,936 INFO  [Log] Switch to ACCOUNT 
+2016-03-22 15:52:16,942 INFO  [Log] ACCOUNT 
+2016-03-22 15:52:17,570 INFO  [Log] Click btnNew 
+2016-03-22 15:52:17,646 INFO  [Log] Input txtCustomerNo 
+2016-03-22 15:52:17,691 INFO  [Log] Input txtDepositType 
+2016-03-22 15:52:17,736 INFO  [Log] Input txtCurrency 
+2016-03-22 15:52:18,646 INFO  [Log] Click btnCommit 
+2016-03-22 15:52:18,658 INFO  [Log] Txn Complete: 97304308 15:52:19 22 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17614716115713901 
+2016-03-22 15:52:18,658 INFO  [Log] Print lblResult 
+2016-03-22 15:52:18,716 INFO  [Log] Switch to mainWinID 
+2016-03-22 15:52:18,778 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:52:18,923 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:52:19,210 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 15:52:19,945 INFO  [Log] Input txtDepositProduct 
+2016-03-22 15:52:19,987 INFO  [Log] Input txtPrincipalAmount 
+2016-03-22 15:52:20,690 INFO  [Log] Input txtOpenDate 
+2016-03-22 15:52:20,730 INFO  [Log] Input txtMaturityDate 
+2016-03-22 15:52:20,779 INFO  [Log] Input txtDebitAccount 
+2016-03-22 15:52:20,826 INFO  [Log] Input txtNominatedAccount 
+2016-03-22 15:52:20,945 INFO  [Log] Click rbtNrProgramN 
+2016-03-22 15:52:21,037 INFO  [Log] Input txtMobilePhone 
+2016-03-22 15:52:23,065 INFO  [Log] Click btnCommit 
+2016-03-22 15:52:24,591 INFO  [Log] Click lblOverride 
+2016-03-22 15:52:24,610 INFO  [Log] Print lblResult: Txn Complete: 97304308 15:52:24 22 MAR 2016 AZ.ACCOUNT,MIP.OPEN.VPB2 I - Deal slip printed: 17614620925714500 
+2016-03-22 15:52:24,666 INFO  [Log] Switch to mainWinID 
+2016-03-22 15:52:24,813 INFO  [Log] Input txt_UserName 
+2016-03-22 15:52:24,856 INFO  [Log] Input txt_Password 
+2016-03-22 15:52:25,454 INFO  [Log] Click btn_SignIn 
+2016-03-22 15:52:25,536 INFO  [Log] Input txt_CommandLine 
+2016-03-22 15:52:25,693 INFO  [Log] Click btn_CommandImage 
+2016-03-22 15:52:25,965 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-22 15:52:26,024 INFO  [Log] Input txtTransactionId 
+2016-03-22 15:52:26,568 INFO  [Log] Click btnPerform 
+2016-03-22 15:52:27,888 INFO  [Log] Click btnAuthorise 
+2016-03-22 15:52:27,900 INFO  [Log] Print lblResult: Txn Complete: 97304308 15:52:27 22 MAR 2016 AZ.ACCOUNT,MIP.OPEN.VPB2 A 
