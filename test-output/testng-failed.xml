@@ -10,9 +10,7 @@
     <classes>
       <class name="Testcases.OpenAzSavingTest">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="openSavingAccount" invocation-numbers="0"/>
+          <include name="openSavingAccount"/>
         </methods>
       </class> <!-- Testcases.OpenAzSavingTest -->
     </classes>
