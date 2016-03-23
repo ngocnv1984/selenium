@@ -124,6 +124,8 @@ public class OpenAzSavingTest extends TestBase {
 		OpenAzSavingPage.btnAuthorise(driver).click();
 		Log.info("Click btnAuthorise");
 		Log.info("Print lblResult: " + OpenAzSavingPage.lblResult(driver).getText());
+		
+		updateResult("savingaccount", account, Integer.parseInt(dataset[0]), 0);
 	}
 	
 	private void openFixed(String account)
