@@ -1,0 +1,22 @@
+2016-03-23 16:55:39,334 INFO  [Log] 
+ 
+2016-03-23 16:55:39,334 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-23 16:55:39,334 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-23 16:55:39,334 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-23 16:55:42,559 INFO  [Log] Input txt_UserName 
+2016-03-23 16:55:42,606 INFO  [Log] Input txt_Password 
+2016-03-23 16:55:43,467 INFO  [Log] Click btn_SignIn 
+2016-03-23 16:55:43,513 INFO  [Log] Input txt_CommandLine 
+2016-03-23 16:55:43,672 INFO  [Log] Click btn_CommandImage 
+2016-03-23 16:55:44,074 INFO  [Log] Switch to FUNDS.TRANSFER 
+2016-03-23 16:55:44,080 INFO  [Log] FUNDS.TRANSFER 
+2016-03-23 16:55:45,958 INFO  [Log] Click btnNew 
+2016-03-23 16:55:46,032 INFO  [Log] Input txtTransferType 
+2016-03-23 16:55:46,078 INFO  [Log] Input txtDebitAccount 
+2016-03-23 16:55:46,127 INFO  [Log] Input txtDebitCurrency 
+2016-03-23 16:55:46,168 INFO  [Log] Input txtDebitAmount 
+2016-03-23 16:55:46,213 INFO  [Log] Input txtCreditAccount 
+2016-03-23 16:55:46,258 INFO  [Log] Input txtCreditCurrency 
+2016-03-23 16:55:46,295 INFO  [Log] Input txtOrderBank 
+2016-03-23 16:55:48,862 INFO  [Log] Click btnCommit 
