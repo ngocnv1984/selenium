@@ -94,7 +94,6 @@ public class OpenAzSavingTest extends TestBase {
 		Log.info(OpenAzSavingPage.lblResult(driver).getText());
 		Log.info("Print lblResult");
 		
-		// OPEN FIXED AZ
 		signin.switchMainId();
 		
 		if(dataset[2].equals("6601")||dataset[2].equals("6603"))
