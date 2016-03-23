@@ -28,8 +28,8 @@ public class DataProviderSource extends TestBase {
 		case "openaccount":
 			testData = ReadExcel.readExcelData("datasource.xls","openaccount");
 			break;
-		case "opensavingaccount":
-			testData = ReadExcel.readExcelData("datasource.xls","savingaccount");
+		case "openaz":
+			testData = ReadExcel.readExcelData("datasource.xls","openaz");
 			break;
 		case "openlimitcontrol":
 			testData = ReadExcel.readExcelData("datasource.xls","limitcontrol");

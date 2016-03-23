@@ -17,3 +17,175 @@
 2016-03-23 11:21:07,525 INFO  [Log] Click btn_CommandImage 
 2016-03-23 11:21:07,839 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
 2016-03-23 11:21:08,681 INFO  [Log] Input txtDepositProduct 
+2016-03-23 11:38:44,671 INFO  [Log] Input txt_UserName 
+2016-03-23 11:38:44,714 INFO  [Log] Input txt_Password 
+2016-03-23 11:38:45,416 INFO  [Log] Click btn_SignIn 
+2016-03-23 11:38:45,506 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:38:45,682 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:38:46,015 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 11:38:46,022 INFO  [Log] ACCOUNT 
+2016-03-23 11:38:46,638 INFO  [Log] Click btnNew 
+2016-03-23 11:38:46,707 INFO  [Log] Input txtCustomerNo 
+2016-03-23 11:38:46,750 INFO  [Log] Input txtDepositType 
+2016-03-23 11:38:46,806 INFO  [Log] Input txtCurrency 
+2016-03-23 11:38:47,964 INFO  [Log] Click btnCommit 
+2016-03-23 11:38:47,978 INFO  [Log] Txn Complete: 97304424 11:38:47 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615859984192703 
+2016-03-23 11:38:47,978 INFO  [Log] Print lblResult 
+2016-03-23 11:38:48,050 INFO  [Log] Switch to mainWinID 
+2016-03-23 11:38:48,110 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:38:48,259 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:38:48,534 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 11:38:49,631 INFO  [Log] Input txtDepositProduct 
+2016-03-23 11:38:49,671 INFO  [Log] Input txtPrincipalAmount 
+2016-03-23 11:38:50,419 INFO  [Log] Input txtOpenDate 
+2016-03-23 11:38:50,463 INFO  [Log] Input txtMaturityDate 
+2016-03-23 11:38:50,507 INFO  [Log] Input txtDebitAccount 
+2016-03-23 11:38:50,553 INFO  [Log] Input txtNominatedAccount 
+2016-03-23 11:38:50,667 INFO  [Log] Click rbtNrProgramN 
+2016-03-23 11:38:50,727 INFO  [Log] Input txtDao 
+2016-03-23 11:38:50,793 INFO  [Log] Input txtMobilePhone 
+2016-03-23 11:38:54,423 INFO  [Log] Click btnCommit 
+2016-03-23 11:39:28,068 INFO  [Log] Input txt_UserName 
+2016-03-23 11:39:28,120 INFO  [Log] Input txt_Password 
+2016-03-23 11:39:29,009 INFO  [Log] Click btn_SignIn 
+2016-03-23 11:39:29,082 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:39:29,237 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:39:29,632 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 11:39:29,641 INFO  [Log] ACCOUNT 
+2016-03-23 11:39:30,240 INFO  [Log] Click btnNew 
+2016-03-23 11:39:30,308 INFO  [Log] Input txtCustomerNo 
+2016-03-23 11:39:30,349 INFO  [Log] Input txtDepositType 
+2016-03-23 11:39:30,395 INFO  [Log] Input txtCurrency 
+2016-03-23 11:39:31,390 INFO  [Log] Click btnCommit 
+2016-03-23 11:39:31,403 INFO  [Log] Txn Complete: 93887948 11:39:30 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615646614197100 
+2016-03-23 11:39:31,403 INFO  [Log] Print lblResult 
+2016-03-23 11:39:31,466 INFO  [Log] Switch to mainWinID 
+2016-03-23 11:39:31,528 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:39:31,678 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:39:34,803 INFO  [Log] Input txt_UserName 
+2016-03-23 11:39:34,916 INFO  [Log] Input txt_Password 
+2016-03-23 11:39:35,783 INFO  [Log] Click btn_SignIn 
+2016-03-23 11:39:35,878 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:39:36,030 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:39:36,429 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 11:39:36,434 INFO  [Log] ACCOUNT 
+2016-03-23 11:39:37,102 INFO  [Log] Click btnNew 
+2016-03-23 11:39:37,166 INFO  [Log] Input txtCustomerNo 
+2016-03-23 11:39:37,213 INFO  [Log] Input txtDepositType 
+2016-03-23 11:39:37,265 INFO  [Log] Input txtCurrency 
+2016-03-23 11:39:38,360 INFO  [Log] Click btnCommit 
+2016-03-23 11:39:38,372 INFO  [Log] Txn Complete: 93887956 11:39:37 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615698834197800 
+2016-03-23 11:39:38,372 INFO  [Log] Print lblResult 
+2016-03-23 11:39:38,454 INFO  [Log] Switch to mainWinID 
+2016-03-23 11:39:38,512 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:39:38,656 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:39:39,042 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 11:39:39,896 INFO  [Log] Input txtDepositProduct 
+2016-03-23 11:39:39,948 INFO  [Log] Input txtPrincipalAmount 
+2016-03-23 11:39:40,701 INFO  [Log] Input txtOpenDate 
+2016-03-23 11:39:40,745 INFO  [Log] Input txtMaturityDate 
+2016-03-23 11:39:40,789 INFO  [Log] Input txtDebitAccount 
+2016-03-23 11:39:40,836 INFO  [Log] Input txtNominatedAccount 
+2016-03-23 11:39:40,961 INFO  [Log] Click rbtNrProgramN 
+2016-03-23 11:39:41,029 INFO  [Log] Input txtDao 
+2016-03-23 11:39:41,077 INFO  [Log] Input txtMobilePhone 
+2016-03-23 11:39:41,855 INFO  [Log] Click btnCommit 
+2016-03-23 11:39:51,916 INFO  [Log] lblOverride not found 
+2016-03-23 11:40:04,968 INFO  [Log] Input txt_UserName 
+2016-03-23 11:40:05,009 INFO  [Log] Input txt_Password 
+2016-03-23 11:40:05,891 INFO  [Log] Click btn_SignIn 
+2016-03-23 11:40:05,980 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:40:06,134 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:40:06,534 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 11:40:06,538 INFO  [Log] ACCOUNT 
+2016-03-23 11:40:07,179 INFO  [Log] Click btnNew 
+2016-03-23 11:40:07,246 INFO  [Log] Input txtCustomerNo 
+2016-03-23 11:40:07,292 INFO  [Log] Input txtDepositType 
+2016-03-23 11:40:07,330 INFO  [Log] Input txtCurrency 
+2016-03-23 11:40:08,460 INFO  [Log] Click btnCommit 
+2016-03-23 11:40:08,474 INFO  [Log] Txn Complete: 93887964 11:40:07 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615646614200800 
+2016-03-23 11:40:08,474 INFO  [Log] Print lblResult 
+2016-03-23 11:40:08,537 INFO  [Log] Switch to mainWinID 
+2016-03-23 11:40:08,594 INFO  [Log] Input txt_CommandLine 
+2016-03-23 11:40:08,746 INFO  [Log] Click btn_CommandImage 
+2016-03-23 11:40:09,153 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 11:40:10,082 INFO  [Log] Input txtDepositProduct 
+2016-03-23 11:40:10,124 INFO  [Log] Input txtPrincipalAmount 
+2016-03-23 11:40:10,936 INFO  [Log] Input txtOpenDate 
+2016-03-23 11:40:10,978 INFO  [Log] Input txtMaturityDate 
+2016-03-23 11:40:11,029 INFO  [Log] Input txtDebitAccount 
+2016-03-23 11:40:11,073 INFO  [Log] Input txtNominatedAccount 
+2016-03-23 11:40:11,184 INFO  [Log] Click rbtNrProgramN 
+2016-03-23 11:40:11,247 INFO  [Log] Input txtDao 
+2016-03-23 11:40:11,297 INFO  [Log] Input txtMobilePhone 
+2016-03-23 11:40:12,065 INFO  [Log] Click btnCommit 
+2016-03-23 12:42:05,906 INFO  [Log] Input txt_UserName 
+2016-03-23 12:42:05,981 INFO  [Log] Input txt_Password 
+2016-03-23 12:42:07,250 INFO  [Log] Click btn_SignIn 
+2016-03-23 12:42:07,330 INFO  [Log] Input txt_CommandLine 
+2016-03-23 12:42:07,487 INFO  [Log] Click btn_CommandImage 
+2016-03-23 12:42:07,973 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 12:42:07,983 INFO  [Log] ACCOUNT 
+2016-03-23 12:42:09,032 INFO  [Log] Click btnNew 
+2016-03-23 12:42:09,110 INFO  [Log] Input txtCustomerNo 
+2016-03-23 12:42:09,148 INFO  [Log] Input txtDepositType 
+2016-03-23 12:42:09,195 INFO  [Log] Input txtCurrency 
+2016-03-23 12:42:11,044 INFO  [Log] Click btnCommit 
+2016-03-23 12:42:11,059 INFO  [Log] Txn Complete: 93888332 12:42:09 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615710764573000 
+2016-03-23 12:42:11,060 INFO  [Log] Print lblResult 
+2016-03-23 12:42:11,157 INFO  [Log] Switch to mainWinID 
+2016-03-23 12:42:11,218 INFO  [Log] Input txt_CommandLine 
+2016-03-23 12:42:11,366 INFO  [Log] Click btn_CommandImage 
+2016-03-23 12:42:11,770 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 12:42:12,817 INFO  [Log] Input txtDepositProduct 
+2016-03-23 12:42:12,864 INFO  [Log] Input txtPrincipalAmount 
+2016-03-23 12:42:13,764 INFO  [Log] Input txtOpenDate 
+2016-03-23 12:42:13,851 INFO  [Log] Input txtMaturityDate 
+2016-03-23 12:42:13,950 INFO  [Log] Input txtDebitAccount 
+2016-03-23 12:42:14,014 INFO  [Log] Input txtNominatedAccount 
+2016-03-23 12:42:14,163 INFO  [Log] Click rbtNrProgramN 
+2016-03-23 12:42:14,223 INFO  [Log] Input txtDao 
+2016-03-23 12:42:14,288 INFO  [Log] Input txtMobilePhone 
+2016-03-23 12:42:16,230 INFO  [Log] Click btnCommit 
+2016-03-23 12:42:19,462 INFO  [Log] Click lblOverride 
+2016-03-23 12:42:19,476 INFO  [Log] Print lblResult: Txn Complete: 93888332 12:42:16 23 MAR 2016 AZ.ACCOUNT,FD.OPEN.VPB2 I - Deal slip printed: 17615710764573900 
+2016-03-23 12:42:19,513 INFO  [Log] Switch to mainWinID 
+2016-03-23 12:42:19,661 INFO  [Log] Input txt_UserName 
+2016-03-23 12:42:19,703 INFO  [Log] Input txt_Password 
+2016-03-23 12:42:20,668 INFO  [Log] Click btn_SignIn 
+2016-03-23 12:42:20,728 INFO  [Log] Input txt_CommandLine 
+2016-03-23 12:42:20,880 INFO  [Log] Click btn_CommandImage 
+2016-03-23 12:42:21,365 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 12:42:21,417 INFO  [Log] Input txtTransactionId 
+2016-03-23 12:42:22,069 INFO  [Log] Click btnPerform 
+2016-03-23 12:42:30,080 INFO  [Log] Click btnAuthorise 
+2016-03-23 12:42:30,101 INFO  [Log] Print lblResult: Txn Complete: 93888332 12:42:22 23 MAR 2016 AZ.ACCOUNT,FD.OPEN.VPB2 A 
+2016-03-23 12:42:33,218 INFO  [Log] Input txt_UserName 
+2016-03-23 12:42:33,304 INFO  [Log] Input txt_Password 
+2016-03-23 12:42:34,195 INFO  [Log] Click btn_SignIn 
+2016-03-23 12:42:34,265 INFO  [Log] Input txt_CommandLine 
+2016-03-23 12:42:34,419 INFO  [Log] Click btn_CommandImage 
+2016-03-23 12:42:34,851 INFO  [Log] Switch to ACCOUNT 
+2016-03-23 12:42:34,855 INFO  [Log] ACCOUNT 
+2016-03-23 12:42:35,638 INFO  [Log] Click btnNew 
+2016-03-23 12:42:35,705 INFO  [Log] Input txtCustomerNo 
+2016-03-23 12:42:35,747 INFO  [Log] Input txtDepositType 
+2016-03-23 12:42:35,787 INFO  [Log] Input txtCurrency 
+2016-03-23 12:42:37,216 INFO  [Log] Click btnCommit 
+2016-03-23 12:42:37,230 INFO  [Log] Txn Complete: 93888348 12:42:36 23 MAR 2016 ACCOUNT,AZ.FIXED.OPEN.VPB I - Deal slip printed: 17615710764575700 
+2016-03-23 12:42:37,231 INFO  [Log] Print lblResult 
+2016-03-23 12:42:37,300 INFO  [Log] Switch to mainWinID 
+2016-03-23 12:42:37,354 INFO  [Log] Input txt_CommandLine 
+2016-03-23 12:42:37,501 INFO  [Log] Click btn_CommandImage 
+2016-03-23 12:42:37,875 INFO  [Log] Switch to ALL IN ONE ACCOUNT 
+2016-03-23 12:42:38,744 INFO  [Log] Input txtDepositProduct 
+2016-03-23 12:42:38,786 INFO  [Log] Input txtPrincipalAmount 
+2016-03-23 12:42:39,514 INFO  [Log] Input txtOpenDate 
+2016-03-23 12:42:39,555 INFO  [Log] Input txtMaturityDate 
+2016-03-23 12:42:39,604 INFO  [Log] Input txtDebitAccount 
+2016-03-23 12:42:39,649 INFO  [Log] Input txtNominatedAccount 
+2016-03-23 12:42:39,764 INFO  [Log] Click rbtNrProgramN 
+2016-03-23 12:42:39,831 INFO  [Log] Input txtDao 
+2016-03-23 12:42:39,881 INFO  [Log] Input txtMobilePhone 
+2016-03-23 12:42:40,783 INFO  [Log] Click btnCommit 
+2016-03-23 12:42:41,952 INFO  [Log] Click lblOverride 

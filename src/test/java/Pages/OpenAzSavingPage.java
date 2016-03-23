@@ -48,6 +48,30 @@ public class OpenAzSavingPage extends TestBase
 		return inputValue;
 	}
 	
+	public static String intergrateBaseVersion()
+	{
+		inputValue = map.getValue("INTERGRATE_BASE_VERSION");
+		return inputValue;
+	}
+	
+	public static String intergrateBaseTitle()
+	{
+		inputValue = map.getValue("INTERGRATE_BASE_TITLE");
+		return inputValue;
+	}
+	
+	public static String intergrateTimeDepositVersion()
+	{
+		inputValue = map.getValue("INTERGRATE_TIME_DEPOSIT_VERSION");
+		return inputValue;
+	}
+	
+	public static String intergrateTimeDepositTitle()
+	{
+		inputValue = map.getValue("INTERGRATE_TIME_DEPOSIT_TITLE");
+		return inputValue;
+	}
+	
 	////////////// GET OBJECT /////////////////////	
 	public static WebElement btnNew(WebDriver driver)
     {

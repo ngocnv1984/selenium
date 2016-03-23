@@ -32,7 +32,7 @@ public class OpenAzSavingTest extends TestBase {
 	}
 	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
-	public void openSavingAccount(String no, String customerNo, String depositType, 
+	public void openAz(String no, String customerNo, String depositType, 
 			String currency, String depositProduct, String amount, String valueDate, 
 			String maturityDate, String term, String debitAccount, String nominatedAccount, 
 			String interestRate, String dao, String mobilePhone, String nrProgram, 
@@ -124,7 +124,7 @@ public class OpenAzSavingTest extends TestBase {
 		Log.info("Click btnAuthorise");
 		Log.info("Print lblResult: " + OpenAzSavingPage.lblResult(driver).getText());
 		
-		updateResult("savingaccount", account, Integer.parseInt(dataset[0]), 0);
+		updateResult("openaz", account, Integer.parseInt(dataset[0]), 0);
 	}
 	
 	private void openFixed(String account)
@@ -249,7 +249,108 @@ public class OpenAzSavingTest extends TestBase {
 	
 	private void timeDepositWithoutNr()
 	{
+		SignInTest signin = new SignInTest();
+		signin.signIn(driver,SignInPage.inputUser(),SignInPage.inputPassword());
+		signin.navigateToVersion(OpenAzSavingPage.intergrateBaseVersion(),OpenAzSavingPage.intergrateBaseTitle());
 		
+		Log.info(driver.getTitle());
+		
+		OpenAzSavingPage.btnNew(driver).click();
+		Log.info("Click btnNew");
+		
+		String account = OpenAzSavingPage.txtAccount(driver).getAttribute("value");
+		
+		///////// OPEN BASE ACCOUNT
+		clearAndType(OpenAzSavingPage.txtCustomerNo(driver), dataset[1]);
+		Log.info("Input txtCustomerNo");
+		
+		clearAndType(OpenAzSavingPage.txtDepositType(driver), dataset[2]);
+		Log.info("Input txtDepositType");
+		
+		clearAndType(OpenAzSavingPage.txtCurrency(driver), dataset[3]);
+		Log.info("Input txtCurrency");
+		
+		OpenAzSavingPage.btnCommit(driver).click();
+		Log.info("Click btnCommit");
+		
+		Log.info(OpenAzSavingPage.lblResult(driver).getText());
+		Log.info("Print lblResult");
+		
+		signin.switchMainId();
+		signin.navigateToVersion(OpenAzSavingPage.intergrateTimeDepositVersion(),OpenAzSavingPage.intergrateTimeDepositTitle());
+		openTimeDeposit(account);
+		
+		// AUTHORIZE FIXED AZ
+		signin.switchMainId();
+        signin.signIn(driver,SignInPage.authoriseUser(),SignInPage.authorisePassword());
+		signin.navigateToVersion(OpenAzSavingPage.intergrateTimeDepositVersion(),OpenAzSavingPage.intergrateTimeDepositTitle());
+
+		clearAndType(OpenAzSavingPage.txtTransactionId(driver), account);
+		Log.info("Input txtTransactionId");
+		OpenAzSavingPage.btnPerform(driver).click();
+		Log.info("Click btnPerform");
+		OpenAzSavingPage.btnAuthorise(driver).click();
+		Log.info("Click btnAuthorise");
+		Log.info("Print lblResult: " + OpenAzSavingPage.lblResult(driver).getText());
+		
+		updateResult("openaz", account, Integer.parseInt(dataset[0]), 0);
+	}
+	
+	private void openTimeDeposit(String account)
+	{
+		clearAndType(OpenAzSavingPage.txtTransactionId(driver), account);
+		OpenAzSavingPage.btnEdit(driver).click();
+		
+		clearAndType(OpenAzSavingPage.txtDepositProduct(driver), dataset[4]);
+		Log.info("Input txtDepositProduct");
+		
+		clearAndType(OpenAzSavingPage.txtPrincipalAmount(driver), dataset[5]);
+		Log.info("Input txtPrincipalAmount");
+		
+		OpenAzSavingPage.txtOpenDate(driver).click();
+		clearAndType(OpenAzSavingPage.txtOpenDate(driver),dataset[6]);
+		Log.info("Input txtOpenDate");
+		
+		clearAndType(OpenAzSavingPage.txtMaturityDate(driver), dataset[7]);
+		Log.info("Input txtMaturityDate");
+		
+		clearAndType(OpenAzSavingPage.txtDebitAccount(driver), dataset[9]);
+		Log.info("Input txtDebitAccount");
+		
+		clearAndType(OpenAzSavingPage.txtNominatedAccount(driver), dataset[10]);
+		Log.info("Input txtNominatedAccount");
+		
+		clearAndType(OpenAzSavingPage.txtInterestRate(driver), dataset[11]);
+		
+		//////// Input NR
+		if(dataset[14]==null||dataset[14].equals(""))
+		{
+			OpenAzSavingPage.rbtNrProgramN(driver).click();
+			Log.info("Click rbtNrProgramN");
+		}
+		else
+		{
+			OpenAzSavingPage.rbtNrProgramY(driver).click();
+			Log.info("Click rbtNrProgramY");
+			inputNr();
+		}
+		
+		clearAndType(OpenAzSavingPage.txtDao(driver), dataset[12]);
+		Log.info("Input txtDao");
+		clearAndType(OpenAzSavingPage.txtMobilePhone(driver), dataset[13]);
+		Log.info("Input txtMobilePhone");
+		OpenAzSavingPage.btnCommit(driver).click();
+		Log.info("Click btnCommit");
+		
+		if(OpenAzSavingPage.lblOverride(driver)!=null)
+		{
+			OpenAzSavingPage.lblOverride(driver).click();
+			Log.info("Click lblOverride");
+		}
+		else
+			Log.info("lblOverride not found");
+
+		Log.info("Print lblResult: " + OpenAzSavingPage.lblResult(driver).getText());
 	}
 	
 	@AfterMethod
