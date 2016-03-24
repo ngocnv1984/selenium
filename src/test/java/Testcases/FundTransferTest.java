@@ -53,7 +53,8 @@ public class FundTransferTest extends TestBase {
 		clearAndType(FundTransferPage.txtTransferType(driver), transferType);
 		Log.info("Input txtTransferType");
 		
-		clearAndType(FundTransferPage.txtDebitAccount(driver), debitAccount);
+//		clearAndType(FundTransferPage.txtDebitAccount(driver), debitAccount);
+		clearAndType(FundTransferPage.txtDebitAccount(driver), debitCurrency+"14033");
 		Log.info("Input txtDebitAccount");
 		
 		clearAndType(FundTransferPage.txtDebitCurrency(driver), debitCurrency);
