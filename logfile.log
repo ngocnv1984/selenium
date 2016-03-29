@@ -1,0 +1,201 @@
+2016-03-29 17:26:37,930 INFO  [Log] 
+ 
+2016-03-29 17:26:37,930 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:26:37,930 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:26:37,930 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:26:41,098 INFO  [Log] Input txt_UserName 
+2016-03-29 17:26:41,149 INFO  [Log] Input txt_Password 
+2016-03-29 17:26:42,123 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:26:42,193 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:26:42,358 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:26:42,691 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:26:42,691 INFO  [Log] Start Testcase 
+2016-03-29 17:26:42,696 INFO  [Log] ACCOUNT 
+2016-03-29 17:26:46,438 INFO  [Log] Click btnNew 
+2016-03-29 17:26:46,522 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:26:46,562 INFO  [Log] Input txtDepositType 
+2016-03-29 17:26:46,610 INFO  [Log] Input txtCurrency 
+2016-03-29 17:26:46,610 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:26:46,610 INFO  [Log] Select ddlCustType 
+2016-03-29 17:26:46,651 INFO  [Log] Input txtDao 
+2016-03-29 17:26:49,635 INFO  [Log] Click btnCommit 
+2016-03-29 17:26:59,713 INFO  [Log] lblOverride not found 
+2016-03-29 17:26:59,713 INFO  [Log] 93891538 
+2016-03-29 17:27:00,216 INFO  [Log] 
+ 
+2016-03-29 17:27:00,216 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:27:00,216 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:27:00,216 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:27:02,848 INFO  [Log] Input txt_UserName 
+2016-03-29 17:27:02,896 INFO  [Log] Input txt_Password 
+2016-03-29 17:27:03,737 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:27:03,794 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:27:03,951 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:27:04,441 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:27:04,441 INFO  [Log] Start Testcase 
+2016-03-29 17:27:04,484 INFO  [Log] ACCOUNT 
+2016-03-29 17:27:06,094 INFO  [Log] Click btnNew 
+2016-03-29 17:27:06,181 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:27:06,227 INFO  [Log] Input txtDepositType 
+2016-03-29 17:27:06,268 INFO  [Log] Input txtCurrency 
+2016-03-29 17:27:06,268 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:27:06,268 INFO  [Log] Select ddlCustType 
+2016-03-29 17:27:06,314 INFO  [Log] Input txtDao 
+2016-03-29 17:27:08,592 INFO  [Log] Click btnCommit 
+2016-03-29 17:27:18,679 INFO  [Log] lblOverride not found 
+2016-03-29 17:27:18,679 INFO  [Log] 93891546 
+2016-03-29 17:27:18,979 INFO  [Log] 
+ 
+2016-03-29 17:27:18,979 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:27:18,979 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:27:18,979 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:27:21,706 INFO  [Log] Input txt_UserName 
+2016-03-29 17:27:21,797 INFO  [Log] Input txt_Password 
+2016-03-29 17:27:22,779 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:27:22,831 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:27:23,004 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:27:23,420 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:27:23,420 INFO  [Log] Start Testcase 
+2016-03-29 17:27:23,427 INFO  [Log] ACCOUNT 
+2016-03-29 17:27:25,053 INFO  [Log] Click btnNew 
+2016-03-29 17:27:25,132 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:27:25,172 INFO  [Log] Input txtDepositType 
+2016-03-29 17:27:25,225 INFO  [Log] Input txtCurrency 
+2016-03-29 17:27:25,225 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:27:25,225 INFO  [Log] Select ddlCustType 
+2016-03-29 17:27:25,272 INFO  [Log] Input txtDao 
+2016-03-29 17:27:27,876 INFO  [Log] Click btnCommit 
+2016-03-29 17:27:38,025 INFO  [Log] lblOverride not found 
+2016-03-29 17:27:38,025 INFO  [Log] 93891554 
+2016-03-29 17:27:38,289 INFO  [Log] 
+ 
+2016-03-29 17:27:38,289 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:27:38,289 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:27:38,289 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:27:41,122 INFO  [Log] Input txt_UserName 
+2016-03-29 17:27:41,169 INFO  [Log] Input txt_Password 
+2016-03-29 17:27:42,014 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:27:42,069 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:27:42,233 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:27:42,608 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:27:42,608 INFO  [Log] Start Testcase 
+2016-03-29 17:27:42,625 INFO  [Log] ACCOUNT 
+2016-03-29 17:27:44,177 INFO  [Log] Click btnNew 
+2016-03-29 17:27:44,264 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:27:44,307 INFO  [Log] Input txtDepositType 
+2016-03-29 17:27:44,345 INFO  [Log] Input txtCurrency 
+2016-03-29 17:27:44,345 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:27:44,345 INFO  [Log] Select ddlCustType 
+2016-03-29 17:27:44,386 INFO  [Log] Input txtDao 
+2016-03-29 17:27:45,621 INFO  [Log] Click btnCommit 
+2016-03-29 17:27:55,771 INFO  [Log] lblOverride not found 
+2016-03-29 17:27:55,772 INFO  [Log] 93891562 
+2016-03-29 17:27:55,969 INFO  [Log] 
+ 
+2016-03-29 17:27:55,969 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:27:55,969 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:27:55,969 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:27:58,633 INFO  [Log] Input txt_UserName 
+2016-03-29 17:27:58,717 INFO  [Log] Input txt_Password 
+2016-03-29 17:27:59,598 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:27:59,653 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:27:59,811 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:28:00,245 INFO  [Log] 
+ 
+2016-03-29 17:28:00,245 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:28:00,245 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:28:00,245 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:28:04,670 INFO  [Log] Input txt_UserName 
+2016-03-29 17:28:04,716 INFO  [Log] Input txt_Password 
+2016-03-29 17:28:05,568 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:28:05,628 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:28:05,800 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:28:06,198 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:28:06,198 INFO  [Log] Start Testcase 
+2016-03-29 17:28:06,204 INFO  [Log] ACCOUNT 
+2016-03-29 17:28:07,785 INFO  [Log] Click btnNew 
+2016-03-29 17:28:07,866 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:28:07,905 INFO  [Log] Input txtDepositType 
+2016-03-29 17:28:07,947 INFO  [Log] Input txtCurrency 
+2016-03-29 17:28:07,947 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:28:07,947 INFO  [Log] Select ddlCustType 
+2016-03-29 17:28:07,988 INFO  [Log] Input txtDao 
+2016-03-29 17:28:09,234 INFO  [Log] Click btnCommit 
+2016-03-29 17:28:19,266 INFO  [Log] lblOverride not found 
+2016-03-29 17:28:19,266 INFO  [Log] 93891578 
+2016-03-29 17:28:19,545 INFO  [Log] 
+ 
+2016-03-29 17:28:19,545 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:28:19,545 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:28:19,545 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:28:24,162 INFO  [Log] Input txt_UserName 
+2016-03-29 17:28:24,247 INFO  [Log] Input txt_Password 
+2016-03-29 17:28:27,083 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:28:27,127 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:28:27,291 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:28:27,700 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:28:27,700 INFO  [Log] Start Testcase 
+2016-03-29 17:28:27,704 INFO  [Log] ACCOUNT 
+2016-03-29 17:28:29,250 INFO  [Log] Click btnNew 
+2016-03-29 17:28:29,327 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:28:29,371 INFO  [Log] Input txtDepositType 
+2016-03-29 17:28:29,411 INFO  [Log] Input txtCurrency 
+2016-03-29 17:28:29,411 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:28:29,411 INFO  [Log] Select ddlCustType 
+2016-03-29 17:28:29,455 INFO  [Log] Input txtDao 
+2016-03-29 17:28:30,586 INFO  [Log] Click btnCommit 
+2016-03-29 17:28:40,651 INFO  [Log] lblOverride not found 
+2016-03-29 17:28:40,651 INFO  [Log] 93891589 
+2016-03-29 17:28:40,863 INFO  [Log] 
+ 
+2016-03-29 17:28:40,863 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:28:40,863 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:28:40,863 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:28:43,453 INFO  [Log] Input txt_UserName 
+2016-03-29 17:28:43,501 INFO  [Log] Input txt_Password 
+2016-03-29 17:28:44,366 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:28:44,410 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:28:44,607 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:28:45,002 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:28:45,002 INFO  [Log] Start Testcase 
+2016-03-29 17:28:45,007 INFO  [Log] ACCOUNT 
+2016-03-29 17:28:46,458 INFO  [Log] Click btnNew 
+2016-03-29 17:28:46,536 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:28:46,580 INFO  [Log] Input txtDepositType 
+2016-03-29 17:28:46,626 INFO  [Log] Input txtCurrency 
+2016-03-29 17:28:46,626 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:28:46,626 INFO  [Log] Select ddlCustType 
+2016-03-29 17:28:46,667 INFO  [Log] Input txtDao 
+2016-03-29 17:28:47,847 INFO  [Log] Click btnCommit 
+2016-03-29 17:28:57,909 INFO  [Log] lblOverride not found 
+2016-03-29 17:28:57,909 INFO  [Log] 93891597 
+2016-03-29 17:28:58,072 INFO  [Log] 
+ 
+2016-03-29 17:28:58,072 INFO  [Log] -------------------- -------------------- -------------------- 
+2016-03-29 17:28:58,072 INFO  [Log] ---------------- T24 SYSTEM AUTOMATION TESTING --------------- 
+2016-03-29 17:28:58,072 INFO  [Log] -------------------- -------------------- --------------------
+ 
+2016-03-29 17:29:00,582 INFO  [Log] Input txt_UserName 
+2016-03-29 17:29:00,621 INFO  [Log] Input txt_Password 
+2016-03-29 17:29:01,641 INFO  [Log] Click btn_SignIn 
+2016-03-29 17:29:01,685 INFO  [Log] Input txt_CommandLine 
+2016-03-29 17:29:01,903 INFO  [Log] Click btn_CommandImage 
+2016-03-29 17:29:02,289 INFO  [Log] Switch to ACCOUNT 
+2016-03-29 17:29:02,289 INFO  [Log] Start Testcase 
+2016-03-29 17:29:02,295 INFO  [Log] ACCOUNT 
+2016-03-29 17:29:03,833 INFO  [Log] Click btnNew 
+2016-03-29 17:29:03,913 INFO  [Log] Input txtCustomerNo 
+2016-03-29 17:29:03,954 INFO  [Log] Input txtDepositType 
+2016-03-29 17:29:04,019 INFO  [Log] Input txtCurrency 
+2016-03-29 17:29:04,019 INFO  [Log] Select ddlBonusType 
+2016-03-29 17:29:04,019 INFO  [Log] Select ddlCustType 
+2016-03-29 17:29:04,071 INFO  [Log] Input txtDao 
+2016-03-29 17:29:04,790 INFO  [Log] Click btnCommit 
