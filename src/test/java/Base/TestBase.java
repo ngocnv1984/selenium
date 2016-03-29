@@ -20,6 +20,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import com.jcraft.jsch.*;
+
 public class TestBase {
 	
 	protected void takeScreenshot(WebDriver driver)
@@ -95,5 +97,28 @@ public class TestBase {
 		catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	protected void getFileViaSftp()
+	{
+		JSch jsch = new JSch();
+        Session session = null;
+        try {
+            session = jsch.getSession("t24dev", "10.37.24.116", 22); // ***** username / IP / port
+            session.setConfig("StrictHostKeyChecking", "no");
+            session.setPassword("t24dev@2016"); // ***** pass
+            session.connect();
+
+            Channel channel = session.openChannel("sftp");
+            channel.connect();
+            ChannelSftp sftpChannel = (ChannelSftp) channel;
+            sftpChannel.get("/t24data/t24dev/t24if/atm/CARD.ISS.BP/SUP.CARD.INFOR.2385516__9704321100756436.txt", "C:/localfile.txt");
+            sftpChannel.exit();
+            session.disconnect();
+        } catch (JSchException e) {
+            e.printStackTrace();  
+        } catch (SftpException e) {
+            e.printStackTrace();
+        }
 	}
 }
