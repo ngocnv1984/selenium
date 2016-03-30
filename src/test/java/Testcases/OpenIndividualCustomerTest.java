@@ -24,11 +24,6 @@ public class OpenIndividualCustomerTest extends TestBase {
 	public void setUp()
 	{
 		DOMConfigurator.configure("log4j.xml");
-		Log.info("\n");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("---------------- T24 SYSTEM AUTOMATION TESTING ---------------");
-		Log.info("-------------------- -------------------- --------------------\n");
-		
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -43,80 +38,49 @@ public class OpenIndividualCustomerTest extends TestBase {
 		SignInTest signin = new SignInTest();
 		signin.signIn(driver,SignInPage.inputUser(),SignInPage.inputPassword());
 		signin.navigateToVersion(OpenIndividualCustomerPage.t24Version(),OpenIndividualCustomerPage.versionTitle());
-		
-		Log.info("Start <Open Individual Customer> Testcase");
-				
 		OpenIndividualCustomerPage.btnNew(driver).click();
-		
 		String cif = OpenIndividualCustomerPage.txtCif(driver).getAttribute("value");
 		
 		////////////////BASIC TAB		
-		Log.info("btnNew found");
 		clearAndType(OpenIndividualCustomerPage.txtCustomerMnemonic(driver),"CIF"+cif);
-		Log.info("txtCustomerMnemonic found");
 		clearAndType(OpenIndividualCustomerPage.txtShortName(driver), "Auto short name");
-		Log.info("txtShortName found");
 		clearAndType(OpenIndividualCustomerPage.txtFullName(driver), "Auto full name");
-		Log.info("txtFullName found");
 		clearAndType(OpenIndividualCustomerPage.txtSector(driver), sector);
-		Log.info("txtSector found");
 		clearAndType(OpenIndividualCustomerPage.txtVpbIndustry(driver),vpbIndustry);
-		Log.info("txtVpbIndustry found");
 		OpenIndividualCustomerPage.txtTarget(driver).clear();
 		clearAndType(OpenIndividualCustomerPage.txtTarget(driver),target);
-		Log.info("txtTarget found");
 		clearAndType(OpenIndividualCustomerPage.txtDocumentType(driver),documentType);
-		Log.info("txtDocumentType found");
 		
 		if(documentNum.equals("N"))
 			clearAndType(OpenIndividualCustomerPage.txtDocumentNum(driver),"00"+cif);
 		else
 			clearAndType(OpenIndividualCustomerPage.txtDocumentNum(driver),documentNum);		
-		Log.info("txtDocumentNum found");
 		
 		clearAndType(OpenIndividualCustomerPage.txtIssuePlace(driver),issuePlace);
-		Log.info("txtIssuePlace found");
 		clearAndType(OpenIndividualCustomerPage.txtIssueDate(driver),issueDate);
-		Log.info("txtIssueDate found");
 		
 		if(legalId.equals("N"))
 			clearAndType(OpenIndividualCustomerPage.txtLegalId(driver),"00"+cif);
 		else
 			clearAndType(OpenIndividualCustomerPage.txtLegalId(driver),legalId);
-		Log.info("txtLegalId found");
 		
 		clearAndType(OpenIndividualCustomerPage.txtNationality(driver),nationality);
-		Log.info("txtNationality found");
 		clearAndType(OpenIndividualCustomerPage.txtResidence(driver),residence);
-		Log.info("txtResidence found");
 		clearAndType(OpenIndividualCustomerPage.txtCustomerStatus(driver),customerStatus);
-		Log.info("txtCustomerStatus found");
 		clearAndType(OpenIndividualCustomerPage.txtCompanyBook(driver),companyBook);
-		Log.info("txtCompanyBook found");
 		clearAndType(OpenIndividualCustomerPage.txtBirthDate(driver),birthDate);
-		Log.info("txtBirthDate found");
 		clearAndType(OpenIndividualCustomerPage.txtLanguage(driver),"2");
-		Log.info("txtLanguage found");
 		clearAndType(OpenIndividualCustomerPage.txtStreet(driver),"Dich Vong Hau");
-		Log.info("txtStreet found");
 		clearAndType(OpenIndividualCustomerPage.txtTown(driver),"Cau Giay");
-		Log.info("txtTown found");
 		clearAndType(OpenIndividualCustomerPage.txtProvince(driver),"Ha Noi");
-		Log.info("txtProvince found");
 		clearAndType(OpenIndividualCustomerPage.txtAddStreet(driver),"Dich Vong Hau");
-		Log.info("txtAddStreet found");
 		clearAndType(OpenIndividualCustomerPage.txtAddProvince(driver),"Ha Noi");
-		Log.info("txtAddProvince found");
 		clearAndType(OpenIndividualCustomerPage.txtDao(driver),dao);
-		Log.info("txtDao found");
 		clearAndType(OpenIndividualCustomerPage.txtDaoPb(driver),daoPb);
-		Log.info("txtDaoPb found");
 		OpenIndividualCustomerPage.rbtPCB(driver).click();
-		Log.info("rbtPcb found");
 		
 		//////////////// OTHER DETAILS TAB
 		OpenIndividualCustomerPage.btnTabOther(driver).click();
-		Log.info("btnTabOther found");
 		
 		switch(gender.toLowerCase()){
 			case "m":
@@ -148,22 +112,13 @@ public class OpenIndividualCustomerTest extends TestBase {
 				selectOption(OpenIndividualCustomerPage.ddlContactType(driver),"Mobile");
 				break;
 		}
-		Log.info("ddlContactType found");
 		
 		clearAndType(OpenIndividualCustomerPage.txtContactNumber(driver),contactNumber);
-		Log.info("txtContactNumber found");
 		clearAndType(OpenIndividualCustomerPage.txtEmailAddress(driver),emailAddress);
-		Log.info("txtEmailAddress found");
 		OpenIndividualCustomerPage.btnCommit(driver).click();
-		Log.info("btnCommit found");
 		
 		if(OpenIndividualCustomerPage.lblOverride(driver)!=null)
-		{
 			OpenIndividualCustomerPage.lblOverride(driver).click();
-			Log.info("lblOverride found");
-		}
-		else
-			Log.info("lblOverride not found");
 		
 		// Authorize CIF
 		signin.switchMainId();

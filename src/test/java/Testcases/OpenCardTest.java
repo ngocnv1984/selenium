@@ -24,11 +24,6 @@ public class OpenCardTest extends TestBase {
 	public void setUp()
 	{
 		DOMConfigurator.configure("log4j.xml");
-		Log.info("\n");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("---------------- T24 SYSTEM AUTOMATION TESTING ---------------");
-		Log.info("-------------------- -------------------- --------------------\n");
-		
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -47,41 +42,18 @@ public class OpenCardTest extends TestBase {
 		Log.info(driver.getTitle());
 		
 		OpenCardPage.btnNew(driver).click();
-		Log.info("Click btnNew");
-		
 		String al = OpenCardPage.txtAl(driver).getAttribute("value");
-		
 		clearAndType(OpenCardPage.txtAtmAccountDefault(driver), transferType);
-		Log.info("Input txtTransferType");
-		
 		clearAndType(OpenCardPage.txtCustomerDefault(driver), debitCurrency+"14033");
-		Log.info("Input txtDebitAccount");
-		
 		clearAndType(OpenCardPage.txtCustomer(driver), debitCurrency);
-		Log.info("Input txtDebitCurrency");
-		
 		clearAndType(OpenCardPage.txtEmail(driver), debitAmount);
-		Log.info("Input txtDebitAmount");
-		
 		clearAndType(OpenCardPage.txtEmbrossingName(driver), creditAccount);
-		Log.info("Input txtCreditAccount");
-		
 		clearAndType(OpenCardPage.txtCompanyName(driver), creditCurrency);
-		Log.info("Input txtCreditCurrency");
-		
 		clearAndType(OpenCardPage.txtSecurityQuestion(driver), orderBank);
-		Log.info("Input txtOrderBank");
-		
 		OpenCardPage.btnCommit(driver).click();
-		Log.info("Click btnCommit");
 		
 		if(OpenCardPage.lblOverride(driver)!=null)
-		{
 			OpenCardPage.lblOverride(driver).click();
-			Log.info("Click lblOverride");
-		}
-		else
-			Log.info("lblOverride not found");
 
 		Log.info(al);
 		updateResult("fundtransfer", al, Integer.parseInt(No), 0);

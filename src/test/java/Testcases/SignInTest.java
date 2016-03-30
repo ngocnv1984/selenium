@@ -28,12 +28,6 @@ public class SignInTest extends TestBase {
 	public void setUp()
 	{
 		DOMConfigurator.configure("log4j.xml");
-		Log.info("\n");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("---------------- T24 SYSTEM AUTOMATION TESTING ---------------");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("\n");
-		
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -43,16 +37,10 @@ public class SignInTest extends TestBase {
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
 	public void signIn(String user, String pwd) 
 	{		
-		Log.startTestCase("<SIGN IN>");
 		driver.get(SignInPage.t24Link());
-		
 		clearAndType(SignInPage.txt_UserName(driver),user);
-		Log.endTestCase("Input username");
-		
 		clearAndType(SignInPage.txt_Password(driver),pwd);
 		SignInPage.btn_SignIn(driver).click();
-		
-		Log.endTestCase("<SIGN IN>");
 	}
 	
 	@AfterMethod
@@ -66,13 +54,8 @@ public class SignInTest extends TestBase {
 		driver.get(SignInPage.t24Link());
 		
 		clearAndType(SignInPage.txt_UserName(driver),user);
-		Log.info("Input txt_UserName");
-		
 		clearAndType(SignInPage.txt_Password(driver),pwd);
-		Log.info("Input txt_Password");
-		
 		SignInPage.btn_SignIn(driver).click();
-		Log.info("Click btn_SignIn");
 	}
 	
 	public void navigateToVersion(String version, String title)

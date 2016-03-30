@@ -24,11 +24,6 @@ public class OpenLimitControlTest extends TestBase {
 	public void setUp()
 	{
 		DOMConfigurator.configure("log4j.xml");
-		Log.info("\n");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("---------------- T24 SYSTEM AUTOMATION TESTING ---------------");
-		Log.info("-------------------- -------------------- --------------------\n");
-		
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -195,12 +190,7 @@ public class OpenLimitControlTest extends TestBase {
         OpenLimitControlPage.btnCommit(driver).click();
         
         if(OpenLimitControlPage.lblOverride(driver)!=null)
-		{
 			OpenLimitControlPage.lblOverride(driver).click();
-			Log.info("Click lblOverride");
-		}
-		else
-			Log.info("lblOverride not found");
         
         signin.switchMainId();
 		signin.signIn(driver,SignInPage.authoriseUser(),SignInPage.authorisePassword());

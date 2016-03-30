@@ -26,11 +26,6 @@ public class OpenIndividualFatcaTest extends TestBase {
 	public void setUp()
 	{
 		DOMConfigurator.configure("log4j.xml");
-		Log.info("\n");
-		Log.info("-------------------- -------------------- --------------------");
-		Log.info("---------------- T24 SYSTEM AUTOMATION TESTING ---------------");
-		Log.info("-------------------- -------------------- --------------------\n");
-		
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -68,8 +63,6 @@ public class OpenIndividualFatcaTest extends TestBase {
 		OpenIndividualFatcaPage.txtTransactionId(driver).sendKeys(cif);
 		OpenIndividualFatcaPage.btnPerform(driver).click();
 		OpenIndividualFatcaPage.btnAuthorise(driver).click();
-		
-		Log.info("Authorize FATCA ... DONE");
 		driver.quit();
 	}
 	
