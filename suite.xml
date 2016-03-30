@@ -2,7 +2,7 @@
 <suite name="Default suite">
 	<test name="Default test">
 		<classes>
-			<class name="Testcases.OpenIndividualCustomerTest"/>
+			<class name="Testcases.OpenIndividualCustomerTes"/>
 		</classes>
 	</test>
 </suite>
