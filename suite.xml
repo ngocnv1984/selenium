@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite">
+	<test name="Default test">
+		<classes>
+			<class name="Testcases.OpenIndividualCustomerTest"/>
+		</classes>
+	</test>
+</suite>
