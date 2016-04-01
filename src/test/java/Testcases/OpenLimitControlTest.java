@@ -1,15 +1,6 @@
 package Testcases;
 
-import java.util.concurrent.TimeUnit;
-
-import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import Base.DataProviderSource;
 import Base.Log;
 import Base.TestBase;
@@ -18,18 +9,6 @@ import Pages.SignInPage;
 
 public class OpenLimitControlTest extends TestBase {
 
-	protected WebDriver driver;
-	
-	@BeforeMethod
-	public void setUp()
-	{
-		DOMConfigurator.configure("log4j.xml");
-		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		PageFactory.initElements(driver, this);
-	}
-	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
 	public void OpenLimitControl(String No, String cif, String globalLimit, String limitCurrency, String country, 
 			String approvedDate, String ProposalDate, String availableDate, String offeredUntil, String frequencyReview,
@@ -203,10 +182,5 @@ public class OpenLimitControlTest extends TestBase {
 		Log.info(cif+"."+productLimit);
 		Log.info(cif+".006"+subproduct[0]+".01");
 		Log.info(cif+".006"+subproduct[0]+".01");
-	}
-	
-	@AfterMethod
-	public void tearDown() throws Exception {
-		driver.quit();
 	}
 }

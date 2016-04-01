@@ -1,15 +1,6 @@
 package Testcases;
 
-import java.util.concurrent.TimeUnit;
-
-import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import Base.DataProviderSource;
 import Base.Log;
 import Base.TestBase;
@@ -18,18 +9,7 @@ import Pages.SignInPage;
 
 public class OpenAzSavingTest extends TestBase {
 
-	protected WebDriver driver;
 	String[] dataset = new String[19];
-	
-	@BeforeMethod
-	public void setUp()
-	{
-		DOMConfigurator.configure("log4j.xml");
-		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		PageFactory.initElements(driver, this);
-	}
 	
 	@Test(dataProvider="DataSource", dataProviderClass=DataProviderSource.class)
 	public void openAz(String no, String customerNo, String depositType, 
@@ -245,10 +225,5 @@ public class OpenAzSavingTest extends TestBase {
 			OpenAzSavingPage.lblOverride(driver).click();
 
 		Log.info(OpenAzSavingPage.lblResult(driver).getText());
-	}
-	
-	@AfterMethod
-	public void tearDown() throws Exception {
-		driver.quit();
 	}
 }

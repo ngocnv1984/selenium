@@ -3,7 +3,7 @@
 <suite name="Default suite" verbose="1">
 	<test name="Default test">
 		<classes>
-			<class name="Testcases.OpenAccountTest"/>
+			<class name="Testcases.SignInTest"/>
 			<!--
 			***** Select the line (testcase) that you want to execute and replace with the above line.
 			<class name="Testcases.FundTransferTest"/>
