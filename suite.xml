@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Default suite">
-	<test verbose="2" name="Default test">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Default suite" verbose="1">
+	<test name="Default test">
 		<classes>
 			<class name="Testcases.OpenAccountTest"/>
+			<!--
+			***** Select the line (testcase) that you want to execute and replace with the above line.
+			<class name="Testcases.FundTransferTest"/>
+			<class name="Testcases.OpenAccountTest"/>
+			<class name="Testcases.OpenAzSavingTest"/>
+			<class name="Testcases.OpenCardTest"/>
+			<class name="Testcases.OpenIndividualCustomerTest"/>
+			<class name="Testcases.OpenIndividualFatcaTest"/>
+			<class name="Testcases.OpenLimitControlTest"/>
+			<class name="Testcases.SignInTest"/>
+			-->
 		</classes>
 	</test>
 </suite>
