@@ -112,7 +112,7 @@ public class TestBase {
 		new Select(element).selectByVisibleText(key);
 	}
 	
-	public static void pause(long timeInMillis) {
+	protected static void pause(long timeInMillis) {
 		try 
 		{
 			Thread.sleep(timeInMillis);
@@ -143,5 +143,22 @@ public class TestBase {
         } catch (SftpException e) {
             e.printStackTrace();
         }
+	}
+	
+	protected void createFile()
+	{
+		String data = "Test data";
+		FileOutputStream out;
+		
+		try 
+		{
+			out = new FileOutputStream("c://testFile2.txt");
+			out.write(data.getBytes());
+			out.close();
+		} 
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
 	}
 }
