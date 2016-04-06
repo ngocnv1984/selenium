@@ -152,9 +152,15 @@ public class TestBase {
 		
 		try 
 		{
-			out = new FileOutputStream("c://testFile2.txt");
-			out.write(data.getBytes());
-			out.close();
+			Log.info(getDateTime());
+			for(int i = 0; i<10; i++)
+			{
+				out = new FileOutputStream("c://"+i+".016");
+				out.write(data.getBytes());
+				out.close();
+			}
+			Log.info(getDateTime());
+			
 		} 
 		catch (IOException e) 
 		{

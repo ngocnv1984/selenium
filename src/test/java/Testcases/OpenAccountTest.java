@@ -1,5 +1,8 @@
 package Testcases;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
 import Base.DataProviderSource;
@@ -24,9 +27,7 @@ public class OpenAccountTest extends TestBase {
 		this.dataset[5] = custType;
 		this.dataset[6] = dao;
 		
-		createFile();
-		
-//		process();
+		process();
 	}
 	
 	private void process()
