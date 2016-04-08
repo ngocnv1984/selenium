@@ -27,7 +27,8 @@ public class OpenAccountTest extends TestBase {
 		this.dataset[5] = custType;
 		this.dataset[6] = dao;
 		
-		process();
+		createFile();
+//		process();
 	}
 	
 	private void process()

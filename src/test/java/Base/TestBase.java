@@ -2,6 +2,7 @@ package Base;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -145,21 +146,68 @@ public class TestBase {
         }
 	}
 	
+	protected void putFileViaSftp(String fileName)
+	{
+		
+		///T24 FILE SERVER: T24TEST1 10.37.16.201
+		///USER: t24test
+		///PASS: t24test
+		///CITAD OUT PATH: /t24data/t24test/t24if/ibps/citad/out/BNK
+		
+		///T24 FILE SERVER: T24TEST1 10.37.24.116
+		///USER: t24dev
+		///PASS: t24dev@2016
+		///CITAD OUT PATH: /t24data/t24dev/t24if/atm/CARD.ISS.BP
+		
+		
+		JSch jsch = new JSch();
+        Session session = null;
+        try {
+            session = jsch.getSession("t24test", "10.37.16.201", 22); // ***** username / IP / port 
+            session.setConfig("StrictHostKeyChecking", "no");
+            session.setPassword("t24test"); // ***** pass
+            session.connect();
+
+            Channel channel = session.openChannel("sftp");
+            channel.connect();
+            ChannelSftp sftpChannel = (ChannelSftp) channel;
+            sftpChannel.cd("/t24data/t24test/t24if/ibps/citad/out/BNK"); 
+            File f = new File(fileName);
+            sftpChannel.put(new FileInputStream(f), f.getName());
+            sftpChannel.exit();
+            session.disconnect();
+        } catch (JSchException e) {
+            e.printStackTrace();  
+        } catch (SftpException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	protected void createFile()
 	{
-		String data = "Test data";
+		String content = "#003101001#00701309001#01220160119101553#01901101014#02101309001#02201101014#0250#026VND#02750000#028 #029VPBANK VH#03064621998#031LE THI DUYEN#032#033123456#034CITAD TEST#03630#037100#179#180#18201101014#";
 		FileOutputStream out;
+		String ft="#110FT00001CBNK";
+		String message = "";
 		
 		try 
 		{
-			Log.info(getDateTime());
-			for(int i = 0; i<10; i++)
+			Log.info("---Start---");
+			for(int i = 1; i<=4000; i++)
 			{
-				out = new FileOutputStream("c://"+i+".016");
-				out.write(data.getBytes());
+				message = ft + String.format("%05d", i) + content;	
+				out = new FileOutputStream("C://Users//NgocNV2//Desktop//CITAD//Achives//"+i+"126.016"); 
+				out.write(message.getBytes());
 				out.close();
+				putFileViaSftp("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"126.016");
+				Log.info(String.format("%05d", i));
+				message = "";
+				pause(500);
 			}
-			Log.info(getDateTime());
+			Log.info("---End---");
+			
 			
 		} 
 		catch (IOException e) 
