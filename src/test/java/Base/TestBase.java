@@ -195,20 +195,18 @@ public class TestBase {
 		try 
 		{
 			Log.info("---Start---");
-			for(int i = 1; i<=4000; i++)
+			for(int i = 1; i<=3; i++)
 			{
 				message = ft + String.format("%05d", i) + content;	
-				out = new FileOutputStream("C://Users//NgocNV2//Desktop//CITAD//Achives//"+i+"126.016"); 
+				out = new FileOutputStream("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"126.016"); 
 				out.write(message.getBytes());
 				out.close();
 				putFileViaSftp("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"126.016");
-				Log.info(String.format("%05d", i));
+				Log.info(ft + String.format("%05d", i));
 				message = "";
-				pause(500);
+				pause(700);
 			}
 			Log.info("---End---");
-			
-			
 		} 
 		catch (IOException e) 
 		{
