@@ -29,6 +29,10 @@ import org.testng.annotations.BeforeMethod;
 
 import com.jcraft.jsch.*;
 
+import Pages.GetBankDatePage;
+import Pages.SignInPage;
+import Testcases.SignInTest;
+
 public class TestBase {
 	
 	protected WebDriver driver;
@@ -73,6 +77,18 @@ public class TestBase {
 		} catch (NoSuchElementException e) {
 			return false;
 	    }
+	}
+	
+	public String getBankDate()
+	{
+		SignInTest signin = new SignInTest();
+		signin.signIn(driver,SignInPage.inputUser(),SignInPage.inputPassword());
+		signin.navigateToVersion(GetBankDatePage.bankDateVersion(),GetBankDatePage.bankDateTitle());
+		
+		clearAndType(GetBankDatePage.txtBankId(driver),"VN0010001");
+		GetBankDatePage.btnView(driver).click();
+		
+		return GetBankDatePage.lblToday(driver).getText();
 	}
 	
 	@SuppressWarnings("resource")

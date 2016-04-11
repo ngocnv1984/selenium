@@ -14,6 +14,7 @@
 			<class name="Testcases.OpenIndividualFatcaTest"/>
 			<class name="Testcases.OpenLimitControlTest"/>
 			<class name="Testcases.SignInTest"/>
+			<class name="Testcases.GetBankDateTest"/>
 			-->
 		</classes>
 	</test>

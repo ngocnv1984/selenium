@@ -10,7 +10,7 @@ public class GetBankDatePage extends TestBase
 {
 	private static WebElement element = null;
 	private static String inputValue = null;
-	static ObjectMap map =  new ObjectMap(pathFile("/src/test/resources/T24Repo/FundTransferRepo.properties"));
+	static ObjectMap map =  new ObjectMap(pathFile("/src/test/resources/T24Repo/GetBankDateRepo.properties"));
     
 	public static String bankDateVersion()
 	{

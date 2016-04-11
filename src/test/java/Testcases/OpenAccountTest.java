@@ -1,10 +1,6 @@
 package Testcases;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 import org.testng.annotations.Test;
-
 import Base.DataProviderSource;
 import Base.Log;
 import Base.TestBase;
@@ -27,7 +23,8 @@ public class OpenAccountTest extends TestBase {
 		this.dataset[5] = custType;
 		this.dataset[6] = dao;
 		
-		createFile();
+		Log.info(getBankDate());
+//		createFile();
 //		process();
 	}
 	
