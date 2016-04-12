@@ -203,21 +203,21 @@ public class TestBase {
 	
 	protected void createFile()
 	{
-		String content = "#003101001#00701309001#01220160119101553#01901101014#02101309001#02201101014#0250#026VND#02750000#028 #029VPBANK VH#03064621998#031LE THI DUYEN#032#033123456#034CITAD TEST#03630#037100#179#180#18201101014#";
+		String content = "#003101001#00701309001#01220160126005813#01901201015#02101309001#02201201001#0250#026VND#027138047200#028Cong ty TNHH mot thanh vien Tuan Duong#029KTT TCDKTKT TM PHU LAM - HA DONG HA TAY#0306709745#031Chi cuc thue Quan Ha Dong#032KBNN Ha Dong - Ha Noi#0337111#034MST 0500582437 NOP C754TM1701-Thue gia tri gia tang hang san xuat - kinh doanh trong nuoc KT01/2016 1.380.472DThue TNDN tam tinh Quy 4-2015#03630#037100#179#180#18201201001#";
 		FileOutputStream out;
-		String ft="#110FT00001CBNK";
+		String ft="#110FT00005CHTY";
 		String message = "";
 		
 		try 
 		{
 			Log.info("---Start---");
-			for(int i = 1; i<=3; i++)
+			for(int i = 1; i<=1000; i++)
 			{
 				message = ft + String.format("%05d", i) + content;	
-				out = new FileOutputStream("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"126.016"); 
+				out = new FileOutputStream("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"526.016"); 
 				out.write(message.getBytes());
 				out.close();
-				putFileViaSftp("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"126.016");
+				putFileViaSftp("C://Users//NgocNV2//Desktop//CITAD//Achives//"+String.format("%05d", i)+"526.016");
 				Log.info(ft + String.format("%05d", i));
 				message = "";
 				pause(700);

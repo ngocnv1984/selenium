@@ -23,8 +23,8 @@ public class OpenAccountTest extends TestBase {
 		this.dataset[5] = custType;
 		this.dataset[6] = dao;
 		
-		Log.info(getBankDate());
-//		createFile();
+//		Log.info(getBankDate());
+		createFile();
 //		process();
 	}
 	
