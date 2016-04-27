@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Default suite" parallel="tests" thread-count="5">
+<suite name="Default suite" parallel="tests" thread-count="1">
 	<test name="Default test 1">
 		<classes>
-			<class name="Testcases.Citad1"/>
+			<class name="Testcases.CreateUserTest"/>
 			<!-- 
 			***** Select the line (testcase) that you want to execute and replace with the above line.
 			<class name="Testcases.FundTransferTest"/>
@@ -18,7 +18,7 @@
 			-->
 		</classes>
 	</test>
-	
+	<!--
 	<test name="Default test 2">
 		<classes>
 			<class name="Testcases.Citad2"/>
@@ -42,5 +42,5 @@
 			<class name="Testcases.Citad5"/>
 		</classes>
 	</test>
-	<!-- -->
+	 -->
 </suite>

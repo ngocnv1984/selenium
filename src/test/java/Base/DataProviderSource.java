@@ -34,6 +34,9 @@ public class DataProviderSource extends TestBase {
 		case "openlimitcontrol":
 			testData = ReadExcel.readExcelData("datasource.xls","limitcontrol");
 			break;
+		case "createuser":
+			testData = ReadExcel.readExcelData("datasource.xls","createuser");
+			break;	
 		default:
 			break;
 		}
