@@ -2,61 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5931" started-at="2016-04-12T02:09:23Z" finished-at="2016-04-12T02:09:29Z">
+  <suite name="Default suite" duration-ms="10604" started-at="2016-04-19T05:52:46Z" finished-at="2016-04-19T05:52:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5931" started-at="2016-04-12T02:09:23Z" finished-at="2016-04-12T02:09:29Z">
-      <class name="Testcases.OpenAccountTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.OpenAccountTest@3f0ee7cb]" name="setUp" is-config="true" duration-ms="2797" started-at="2016-04-12T09:09:24Z" finished-at="2016-04-12T09:09:26Z">
+    <test name="Default test" duration-ms="10604" started-at="2016-04-19T05:52:46Z" finished-at="2016-04-19T05:52:56Z">
+      <class name="Testcases.Citad1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.Citad1@35851384]" name="setUp" is-config="true" duration-ms="53" started-at="2016-04-19T12:52:46Z" finished-at="2016-04-19T12:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.OpenAccountTest@3f0ee7cb]" name="openAccount" duration-ms="2659" started-at="2016-04-12T09:09:26Z" data-provider="DataSource" finished-at="2016-04-12T09:09:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[93918417]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1311268]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1001]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[VND]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1111]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="runOfs()[pri:0, instance:Testcases.Citad1@35851384]" name="runOfs" duration-ms="10537" started-at="2016-04-19T12:52:46Z" finished-at="2016-04-19T12:52:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openAccount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.OpenAccountTest@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="225" started-at="2016-04-12T09:09:29Z" finished-at="2016-04-12T09:09:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Testcases.OpenAccountTest -->
+        </test-method> <!-- runOfs -->
+      </class> <!-- Testcases.Citad1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

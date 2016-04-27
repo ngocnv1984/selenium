@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Default suite" verbose="1">
-	<test name="Default test">
+<suite name="Default suite" parallel="tests" thread-count="5">
+	<test name="Default test 1">
 		<classes>
-			<class name="Testcases.OpenAccountTest"/>
-			<!--
+			<class name="Testcases.Citad1"/>
+			<!-- 
 			***** Select the line (testcase) that you want to execute and replace with the above line.
 			<class name="Testcases.FundTransferTest"/>
 			<class name="Testcases.OpenAccountTest"/>
@@ -18,4 +18,29 @@
 			-->
 		</classes>
 	</test>
+	
+	<test name="Default test 2">
+		<classes>
+			<class name="Testcases.Citad2"/>
+		</classes>
+	</test>
+	
+	<test name="Default test 3">
+		<classes>
+			<class name="Testcases.Citad3"/>
+		</classes>
+	</test>
+	
+	<test name="Default test 4">
+		<classes>
+			<class name="Testcases.Citad4"/>
+		</classes>
+	</test>
+	
+	<test name="Default test 5">
+		<classes>
+			<class name="Testcases.Citad5"/>
+		</classes>
+	</test>
+	<!-- -->
 </suite>
