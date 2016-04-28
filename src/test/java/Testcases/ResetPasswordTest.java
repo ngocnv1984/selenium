@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import Base.DataProviderSource;
 import Base.TestBase;
+import Pages.OpenIndividualCustomerPage;
 import Pages.ResetPasswordPage;
 import Pages.SignInPage;
 
@@ -22,12 +23,18 @@ public class ResetPasswordTest extends TestBase{
 		clearAndType(ResetPasswordPage.txtUserPassword(driver), "12341234");
 		ResetPasswordPage.rbtUserType(driver).click();
 		ResetPasswordPage.btnCommit(driver).click();
+		
+//		if(ResetPasswordPage.rbtUserType(driver).getAttribute("type").equals("hidden"))
+//			ResetPasswordPage.btnCommit(driver).click();
+//		else
+//			ResetPasswordPage.rbtUserType(driver).click();
 
 		signin.switchMainId();
 		signin.signIn(driver,signOnName,"12341234");
 		clearAndType(ResetPasswordPage.txtOldPassword(driver),"123456");
 		clearAndType(ResetPasswordPage.txtPassword(driver),"123456");
 		ResetPasswordPage.btnGo(driver).click();
+		updateResult("createuser", "done", Integer.parseInt(no), 0);
 	}
 }
 
