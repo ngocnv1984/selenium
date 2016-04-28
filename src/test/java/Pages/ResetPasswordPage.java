@@ -10,7 +10,7 @@ public class ResetPasswordPage extends TestBase
 {
 	private static WebElement element = null;
 	private static String inputValue = null;
-	static ObjectMap map =  new ObjectMap(pathFile("/src/test/resources/T24Repo/ResetPasswordPage.properties"));
+	static ObjectMap map =  new ObjectMap(pathFile("/src/test/resources/T24Repo/ResetPasswordRepo.properties"));
     
 	public static String resetPasswordVersion()
 	{

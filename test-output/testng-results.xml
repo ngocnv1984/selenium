@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="274" started-at="2016-04-28T03:47:47Z" finished-at="2016-04-28T03:47:47Z">
+  <suite name="Default suite" duration-ms="252" started-at="2016-04-28T03:52:41Z" finished-at="2016-04-28T03:52:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="274" started-at="2016-04-28T03:47:47Z" finished-at="2016-04-28T03:47:47Z">
+    <test name="Default test" duration-ms="252" started-at="2016-04-28T03:52:41Z" finished-at="2016-04-28T03:52:41Z">
       <class name="Testcases.ResetPasswordTest">
-        <test-method status="SKIP" signature="resetPassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.ResetPasswordTest@3f0ee7cb]" name="resetPassword" duration-ms="0" started-at="2016-04-28T10:47:47Z" data-provider="DataSource" finished-at="2016-04-28T10:47:47Z">
+        <test-method status="SKIP" signature="resetPassword(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Testcases.ResetPasswordTest@7f77e91b]" name="resetPassword" duration-ms="0" started-at="2016-04-28T10:52:41Z" data-provider="DataSource" finished-at="2016-04-28T10:52:41Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>

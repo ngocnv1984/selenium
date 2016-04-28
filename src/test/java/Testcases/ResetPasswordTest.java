@@ -16,17 +16,14 @@ public class ResetPasswordTest extends TestBase{
 		signin.signIn(driver,SignInPage.inputUser(),SignInPage.inputPassword());
 		signin.navigateToVersion(ResetPasswordPage.resetPasswordVersion(),ResetPasswordPage.resetPasswordTitle());
 		
-//		clearAndType(ResetPasswordPage.txtId(driver), "TEST-0001-01");
 		clearAndType(ResetPasswordPage.txtId(driver), username);
 		ResetPasswordPage.btnEdit(driver).click();
-//		clearAndType(ResetPasswordPage.txtUserTest(driver), "TEST-0001");
 		clearAndType(ResetPasswordPage.txtUserTest(driver), username);
 		clearAndType(ResetPasswordPage.txtUserPassword(driver), "12341234");
 		ResetPasswordPage.rbtUserType(driver).click();
 		ResetPasswordPage.btnCommit(driver).click();
 
 		signin.switchMainId();
-//		signin.signIn(driver,"TEST0001","12341234");
 		signin.signIn(driver,signOnName,"12341234");
 		clearAndType(ResetPasswordPage.txtOldPassword(driver),"123456");
 		clearAndType(ResetPasswordPage.txtPassword(driver),"123456");
