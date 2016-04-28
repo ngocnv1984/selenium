@@ -37,6 +37,9 @@ public class DataProviderSource extends TestBase {
 		case "createuser":
 			testData = ReadExcel.readExcelData("datasource.xls","createuser");
 			break;	
+		case "resetpassword":
+			testData = ReadExcel.readExcelData("datasource.xls","createuser");
+			break;	
 		default:
 			break;
 		}
