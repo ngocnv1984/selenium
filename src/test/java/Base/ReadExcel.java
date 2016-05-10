@@ -31,7 +31,7 @@ public class ReadExcel {
 				for (int j = startCol; j < endCol; j++) {
 					if(sheet.getRow(i).getCell(j).getCellType() == Cell.CELL_TYPE_STRING)
 						testData[i - startRow][j - startCol] = sheet.getRow(i).getCell(j).getStringCellValue();
-					else if(sheet.getRow(i).getCell(j).getCellType() == Cell.CELL_TYPE_NUMERIC)
+					else //if(sheet.getRow(i).getCell(j).getCellType() == Cell.CELL_TYPE_NUMERIC)
 					{
 						sheet.getRow(i).getCell(j).setCellType(Cell.CELL_TYPE_STRING);
 						testData[i - startRow][j - startCol] = sheet.getRow(i).getCell(j).getStringCellValue();
