@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 import Base.DataProviderSource;
 import Base.TestBase;
-import Pages.OpenIndividualCustomerPage;
 import Pages.ResetPasswordPage;
 import Pages.SignInPage;
 
