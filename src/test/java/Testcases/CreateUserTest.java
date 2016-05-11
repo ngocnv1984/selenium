@@ -20,7 +20,7 @@ public class CreateUserTest extends TestBase{
 		selectOption(CreateUserPage.ddlOption(driver),"Paste");
 		clearAndType(CreateUserPage.txtUsername(driver), signOnName);
 		clearAndType(CreateUserPage.txtSignOnName(driver), signOnName);
-		clearAndType(CreateUserPage.txtStartDateProfile(driver), "20160427");
+		clearAndType(CreateUserPage.txtStartDateProfile(driver), "20160511");
 		CreateUserPage.btnCommit(driver).click();
 		updateResult("createuser", "done", Integer.parseInt(no), 0);
 	}
