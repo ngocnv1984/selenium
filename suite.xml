@@ -3,7 +3,7 @@
 <suite name="Default suite" parallel="tests" thread-count="1">
 	<test name="Default test 1">
 		<classes>
-			<class name="Testcases.OpenAccountTest"/>
+			<class name="Testcases.FundTransferTest"/>
 			<!-- 
 			***** Select the line (testcase) that you want to execute and replace with the above line.
 			<class name="Testcases.FundTransferTest"/>
