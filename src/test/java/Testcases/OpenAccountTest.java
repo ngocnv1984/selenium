@@ -24,8 +24,7 @@ public class OpenAccountTest extends TestBase {
 		this.dataset[6] = dao;
 		
 //		Log.info(getBankDate());
-		createFile();
-//		process();
+		process();
 	}
 	
 	private void process()
