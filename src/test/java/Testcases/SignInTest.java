@@ -47,6 +47,7 @@ public class SignInTest extends TestBase {
 	
 	public void switchChildId(String title)
 	{
+		Log.info("Switch to ChildID");
 		windowId = driver.getWindowHandles();
 	    itererator = windowId.iterator();
 		mainWinID = itererator.next();

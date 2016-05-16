@@ -38,8 +38,7 @@ public class OpenAzSavingTest extends TestBase {
 		this.dataset[17] = nrAmount;
 		this.dataset[18] = nrAccount;
 		
-		if(depositType.equals("6601")||depositType.equals("6602")||
-				depositType.equals("6603")||depositType.equals("6604"))
+		if(depositType.equals("6601")||depositType.equals("6602")||depositType.equals("6603")||depositType.equals("6604"))
 			timeDepositWithNr();
 		else
 			timeDepositWithoutNr();
@@ -60,7 +59,7 @@ public class OpenAzSavingTest extends TestBase {
 		clearAndType(OpenAzSavingPage.txtCurrency(driver), dataset[3]);
 		OpenAzSavingPage.btnCommit(driver).click();
 		Log.info(OpenAzSavingPage.lblResult(driver).getText());
-
+		
 		signin.switchMainId();
 		
 		if(dataset[2].equals("6601")||dataset[2].equals("6603"))
