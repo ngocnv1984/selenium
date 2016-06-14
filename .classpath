@@ -28,5 +28,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Working/Selenium/extension jar/soapui-maven-plugin-5.2.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
